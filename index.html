@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<title>mglearn — Free Classroom Learning Resources</title>
+<meta name="description" content="A home for free, self-contained classroom learning resources by Miguel Guhlin for TCEA: the Learning Activities Hub, TCEA Vibe-Coded Solutions, Suffrage Sojourn, AI for the Defense, and more. Seven languages, no logins, no data collected.">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23054c8c'/><circle cx='50' cy='50' r='20' fill='%23fbd239'/></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{--navy:#054c8c;--navy-d:#023266;--sky:#0a6bbf;--gold:#fbd239;--gold-d:#d9a010;
+    --paper:#f4f8fc;--ink:#161c2e;--ink-soft:#516079;--card:#fff;--line:#dbe6f2}
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+  html{scroll-behavior:smooth}
+  body{font-family:'Nunito',sans-serif;color:var(--ink);background:
+    radial-gradient(ellipse 60% 45% at 90% -8%,rgba(251,210,57,.18)0%,transparent 60%),
+    radial-gradient(ellipse 55% 45% at -5% 100%,rgba(5,76,140,.12)0%,transparent 60%),var(--paper);
+    min-height:100vh;line-height:1.6}
+  a{color:inherit}
+  .wrap{max-width:1000px;margin:0 auto;padding:22px 20px 90px}
+
+  .topbar{display:flex;align-items:center;gap:14px;justify-content:space-between;margin-bottom:20px;flex-wrap:wrap}
+  .wordmark{display:flex;align-items:center;gap:11px;font-family:'Fredoka',sans-serif;font-weight:700;color:var(--navy);font-size:1.2rem;text-decoration:none}
+  .wordmark .dot{width:15px;height:15px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 4px rgba(251,210,57,.3)}
+  .navlinks{display:flex;gap:8px;flex-wrap:wrap}
+  .navlinks a{font-family:'Fredoka',sans-serif;font-weight:600;font-size:.85rem;color:var(--navy);text-decoration:none;
+    border:2px solid var(--line);border-radius:10px;padding:8px 14px;transition:.14s;white-space:nowrap}
+  .navlinks a:hover{border-color:var(--navy)}
+
+  header.hero{position:relative;border-radius:22px;overflow:hidden;
+    background:linear-gradient(120deg,var(--navy-d),var(--navy) 62%,var(--sky));
+    padding:clamp(30px,5vw,52px) clamp(22px,4vw,50px);color:#fff;box-shadow:0 16px 40px rgba(2,50,102,.26)}
+  header.hero::after{content:"";position:absolute;inset:0;pointer-events:none;
+    background:radial-gradient(circle at 88% 12%,rgba(251,210,57,.30)0%,transparent 42%)}
+  header.hero .inner{position:relative;z-index:1}
+  header.hero .eyebrow{display:inline-block;background:var(--gold);color:var(--navy-d);font-family:'Fredoka',sans-serif;font-weight:700;
+    font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;padding:6px 15px;border-radius:100px;margin-bottom:14px}
+  header.hero h1{font-family:'Fredoka',sans-serif;font-weight:700;font-size:clamp(2rem,5vw,3.1rem);line-height:1.03;text-shadow:0 2px 18px rgba(2,20,50,.45)}
+  header.hero p{color:#e8f1fb;font-weight:600;max-width:62ch;margin-top:14px;font-size:clamp(1rem,1.6vw,1.12rem)}
+  .badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}
+  .badge{background:rgba(255,255,255,.14);border:1.5px solid rgba(255,255,255,.28);color:#fff;
+    font-family:'Fredoka',sans-serif;font-weight:600;font-size:.8rem;padding:7px 14px;border-radius:100px;backdrop-filter:blur(2px)}
+
+  .section-h{font-family:'Fredoka',sans-serif;color:var(--navy-d);font-size:1.35rem;margin:38px 0 4px;display:flex;align-items:center;gap:10px}
+  .section-h::before{content:"";width:22px;height:5px;border-radius:3px;background:var(--gold)}
+  .section-sub{color:var(--ink-soft);font-weight:600;margin-bottom:18px}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
+  .card{position:relative;display:flex;flex-direction:column;background:var(--card);border:2px solid var(--line);border-radius:18px;
+    padding:22px 22px 20px;text-decoration:none;color:inherit;transition:.16s;box-shadow:0 6px 20px rgba(20,40,90,.05);overflow:hidden}
+  .card::before{content:"";position:absolute;top:0;left:0;right:0;height:6px;background:linear-gradient(90deg,var(--navy),var(--sky))}
+  .card.gold::before{background:linear-gradient(90deg,var(--gold-d),var(--gold))}
+  .card:hover{border-color:var(--navy);transform:translateY(-3px);box-shadow:0 14px 30px rgba(2,50,102,.16)}
+  .card .kicker{font-family:'Fredoka',sans-serif;font-weight:700;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-d);margin:6px 0 8px}
+  .card h3{font-family:'Fredoka',sans-serif;font-weight:700;color:var(--navy-d);font-size:1.22rem;line-height:1.15;margin-bottom:8px}
+  .card p{font-weight:600;color:var(--ink-soft);font-size:.94rem;flex:1}
+  .card .go{margin-top:14px;font-family:'Fredoka',sans-serif;font-weight:700;color:var(--navy);font-size:.9rem;display:inline-flex;align-items:center;gap:6px}
+  .card .go .arw{transition:.16s}
+  .card:hover .go .arw{transform:translateX(4px)}
+  .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+  .tag{background:rgba(5,76,140,.07);color:var(--navy);font-weight:700;font-size:.72rem;padding:4px 9px;border-radius:7px}
+
+  .panel{background:var(--card);border:2px solid var(--line);border-radius:18px;padding:26px clamp(20px,3vw,34px);margin-top:20px;box-shadow:0 6px 20px rgba(20,40,90,.05)}
+  .panel h2{font-family:'Fredoka',sans-serif;color:var(--navy);font-size:1.25rem;margin:22px 0 8px}
+  .panel h2:first-child{margin-top:0}
+  .panel p{margin-bottom:12px;font-weight:600;color:var(--ink)}
+  .panel a{color:var(--navy);font-weight:700}
+  .lictable{overflow-x:auto;margin:6px 0 14px}
+  table{border-collapse:collapse;width:100%;font-size:.92rem;min-width:440px}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);font-weight:600}
+  th{font-family:'Fredoka',sans-serif;color:var(--navy);background:rgba(5,76,140,.05);white-space:nowrap}
+  .stamp{background:rgba(5,76,140,.06);border-left:5px solid var(--navy);border-radius:0 12px 12px 0;padding:15px 18px;margin:2px 0 16px;
+    font-family:'Fredoka',sans-serif;font-weight:700;color:var(--navy-d);line-height:1.5}
+  .cite{background:rgba(251,210,57,.14);border:2px dashed var(--gold-d);border-radius:12px;padding:14px 16px;font-weight:700;color:var(--navy-d);margin:6px 0 14px}
+  .fine{font-size:.86rem;color:var(--ink-soft);font-weight:600}
+
+  footer{text-align:center;margin-top:44px;font-size:.82rem;color:var(--ink-soft);font-weight:600;line-height:1.9}
+  footer a{color:var(--navy);font-weight:700;text-decoration:none}
+  footer a:hover{text-decoration:underline}
+  footer .fdot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--gold);vertical-align:middle;margin:0 2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="topbar">
+    <a class="wordmark" href="/"><span class="dot" aria-hidden="true"></span> mglearn</a>
+    <nav class="navlinks">
+      <a href="#resources">Resources</a>
+      <a href="#licensing">Licensing</a>
+      <a href="#provenance">Provenance</a>
+    </nav>
+  </div>
+
+  <header class="hero">
+    <div class="inner">
+      <span class="eyebrow">Free classroom learning resources</span>
+      <h1>Learning resources you can use tomorrow.</h1>
+      <p>A home for the free, self-contained teaching tools built by <b>Miguel Guhlin</b> for <b>TCEA</b> — critical-thinking breakouts, literature rooms, STEAM games, history journeys, and AI-literacy resources. Every one runs entirely in the browser. No logins, no accounts, no student data collected.</p>
+      <div class="badges">
+        <span class="badge">🌐 Up to seven languages</span>
+        <span class="badge">🔒 No data collected</span>
+        <span class="badge">🎓 PreK–12 &amp; professional</span>
+        <span class="badge">🆓 Free to use &amp; adapt</span>
+      </div>
+    </div>
+  </header>
+
+  <h2 class="section-h" id="resources">Explore the resources</h2>
+  <p class="section-sub">Each opens its own self-contained site. Start with the Activities Hub — it gathers most of the classroom suites in one searchable place.</p>
+
+  <div class="grid">
+
+    <a class="card" href="/activities/">
+      <div class="kicker">Flagship hub</div>
+      <h3>Learning Activities Hub</h3>
+      <p>The main collection: Critical Thinking Online Breakouts (CTOBs), Science Detectives, Lab Safety Certification, Bible as Literature, PlotPoint literature rooms, Say It Make It STEAM barrier games, Problem-Solving Teaching, Relic Rooms, Digital Math Tools, Digital Citizenship, and Gen AI Literacy.</p>
+      <div class="tags"><span class="tag">Grades PreK–12</span><span class="tag">7 languages</span><span class="tag">Searchable</span></div>
+      <span class="go">Open the hub <span class="arw">→</span></span>
+    </a>
+
+    <a class="card gold" href="/sojourn/">
+      <div class="kicker">History journey</div>
+      <h3>Suffrage Sojourn</h3>
+      <p>A no-combat, interactive journey through five turning points in the unfinished history of voting rights — from the Declaration of Sentiments to the Voting Rights Act. Primary-source shelf in teacher mode; original period-style illustration.</p>
+      <div class="tags"><span class="tag">Social studies</span><span class="tag">7 languages</span><span class="tag">Primary sources</span></div>
+      <span class="go">Begin the journey <span class="arw">→</span></span>
+    </a>
+
+    <a class="card" href="/tcea/">
+      <div class="kicker">Directory</div>
+      <h3>TCEA Vibe-Coded Solutions</h3>
+      <p>A single searchable launch page for the wider collection of HTML tools, dashboards, course references, prompt libraries, classroom games, and downloadable assets built for TCEA professional learning.</p>
+      <div class="tags"><span class="tag">Tools</span><span class="tag">Dashboards</span><span class="tag">Prompts</span></div>
+      <span class="go">Browse the directory <span class="arw">→</span></span>
+    </a>
+
+    <a class="card" href="/legalai/">
+      <div class="kicker">Professional · TCDLA</div>
+      <h3>AI for the Defense</h3>
+      <p>Ethical, accurate, accountable generative AI for Texas criminal defense. Session decks, hands-on activities, a prompt library, and a BoodleBox bot — built for the Texas Criminal Defense Lawyers Association.</p>
+      <div class="tags"><span class="tag">Legal</span><span class="tag">AI ethics</span><span class="tag">Professional</span></div>
+      <span class="go">Open the resources <span class="arw">→</span></span>
+    </a>
+
+    <a class="card gold" href="/gtky/">
+      <div class="kicker">Community builder</div>
+      <h3>Getting to Know You</h3>
+      <p>Self-contained, seven-language classroom activities for building community and belonging at the start of the year — or any time you need a fresh start. Part of the Activities Hub.</p>
+      <div class="tags"><span class="tag">SEL</span><span class="tag">7 languages</span><span class="tag">All ages</span></div>
+      <span class="go">Get started <span class="arw">→</span></span>
+    </a>
+
+    <a class="card" href="/activities/">
+      <div class="kicker">Now inside the hub</div>
+      <h3>Digital Citizenship &amp; Gen AI Literacy</h3>
+      <p>The Digital Citizenship (TEKS Technology Applications, grades 3–8) and Gen AI Literacy breakout suites now live inside the Learning Activities Hub, where they are kept up to date alongside the other suites.</p>
+      <div class="tags"><span class="tag">TEKS</span><span class="tag">Grades 3–8</span><span class="tag">Multilingual</span></div>
+      <span class="go">Find them in the hub <span class="arw">→</span></span>
+    </a>
+
+  </div>
+
+  <div class="panel" id="licensing">
+    <h2>Licensing &amp; reuse</h2>
+    <div class="stamp">© 2026 TCEA · Created by Miguel Guhlin (<a href="mailto:mguhlin@tcea.org">mguhlin@tcea.org</a> · <a href="https://mguhlin.org" target="_blank" rel="noopener">mguhlin.org</a>) in the course of his work at TCEA.</div>
+    <p>These materials were created by Miguel Guhlin, Director of Professional Development at TCEA (the Texas Computer Education Association), as part of his work there. They complement TCEA's professional-learning programs — the blog, workshops, and conference sessions. Copyright is held by TCEA. Two licenses apply, depending on which part you reuse:</p>
+    <div class="lictable">
+      <table>
+        <thead><tr><th>Part</th><th>License</th><th>What it covers</th></tr></thead>
+        <tbody>
+          <tr><td><b>Content</b></td><td><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></td><td>Activity text, questions, scenarios, instructional design, artwork, translations</td></tr>
+          <tr><td><b>Code</b></td><td><a href="https://opensource.org/license/mit" target="_blank" rel="noopener">MIT</a></td><td>HTML, CSS, and JavaScript source</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p><b>Yes, without asking:</b> use these with your students, print and share them with colleagues, host your own copy on a school or district server, and adapt, translate, or remix them for your classroom — as long as you credit the original.</p>
+    <p><b>Not without written permission:</b> selling them or any adaptation, or bundling them into paid training, a paid course, or a commercial product or subscription. Commercial use needs separate written permission from TCEA — ask; it simply isn't granted by the public license.</p>
+    <p><b>How to credit:</b></p>
+    <div class="cite">[Resource name] © 2026 TCEA, created by Miguel Guhlin. Licensed CC BY-NC 4.0.</div>
+    <p class="fine">Each resource carries its own full Licensing &amp; Provenance page with the details, exclusions, and works-by-other-people notes specific to it.</p>
+  </div>
+
+  <div class="panel" id="provenance">
+    <h2>Provenance &amp; how it's made</h2>
+    <p>These resources grew out of TCEA's professional-learning work. Shared instructional scaffolding — UDL guidance, ELPS supports, and lesson-plan structure — is adapted from TCEA breakout and professional-development materials, and several suites are distilled from TCEA workshop curricula.</p>
+    <p><b>Works by other people</b> are excluded from the license above and remain the property of their copyright holders. Literature activities favor public-domain texts; a few are original educational companions to works still in copyright — they reproduce <b>no</b> text, excerpts, or illustrations from those works and are not affiliated with or endorsed by any author, estate, or publisher. Historical journeys quote only short public-domain primary-source passages and link each source directly; scene artwork is original illustration, not reproduced historical work.</p>
+    <p>Content, code, artwork, and the multilingual translations are produced with the help of generative-AI tools and refined under Miguel Guhlin's direction and editorial review — a human stays in the loop on every decision. Translations are machine-assisted and flagged for local educator review before classroom use.</p>
+    <h2>Privacy</h2>
+    <p>Every activity runs entirely in the student's browser. There are no logins and no accounts, nothing is uploaded, and no student data is collected or transmitted. Progress, where an activity saves any, stays on the device.</p>
+    <h2>Contact</h2>
+    <p>For permissions, licensing questions, corrections, or to report an accessibility barrier, contact Miguel Guhlin at <a href="mailto:mguhlin@tcea.org">mguhlin@tcea.org</a>. Students and families: please reach your teacher or school first — they deploy these locally and can respond fastest.</p>
+  </div>
+
+  <footer>
+    <b>mglearn</b> · Free educator resources by Miguel Guhlin for TCEA <span class="fdot" aria-hidden="true"></span> © 2026 TCEA<br>
+    CC BY-NC 4.0 (content) · MIT (code) · <a href="#resources">Resources</a> · <a href="#licensing">Licensing</a> · <a href="https://mguhlin.org" target="_blank" rel="noopener">mguhlin.org</a>
+  </footer>
+
+</div>
+</body>
+</html>
