@@ -29,19 +29,8 @@
     border:2px solid var(--line);border-radius:10px;padding:8px 14px;transition:.14s;white-space:nowrap}
   .navlinks a:hover{border-color:var(--navy)}
 
-  header.hero{position:relative;border-radius:22px;overflow:hidden;
-    background:linear-gradient(120deg,var(--navy-d),var(--navy) 62%,var(--sky));
-    padding:clamp(30px,5vw,52px) clamp(22px,4vw,50px);color:#fff;box-shadow:0 16px 40px rgba(2,50,102,.26)}
-  header.hero::after{content:"";position:absolute;inset:0;pointer-events:none;
-    background:radial-gradient(circle at 88% 12%,rgba(251,210,57,.30)0%,transparent 42%)}
-  header.hero .inner{position:relative;z-index:1}
-  header.hero .eyebrow{display:inline-block;background:var(--gold);color:var(--navy-d);font-family:'Fredoka',sans-serif;font-weight:700;
-    font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;padding:6px 15px;border-radius:100px;margin-bottom:14px}
-  header.hero h1{font-family:'Fredoka',sans-serif;font-weight:700;font-size:clamp(2rem,5vw,3.1rem);line-height:1.03;text-shadow:0 2px 18px rgba(2,20,50,.45)}
-  header.hero p{color:#e8f1fb;font-weight:600;max-width:62ch;margin-top:14px;font-size:clamp(1rem,1.6vw,1.12rem)}
-  .badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}
-  .badge{background:rgba(255,255,255,.14);border:1.5px solid rgba(255,255,255,.28);color:#fff;
-    font-family:'Fredoka',sans-serif;font-weight:600;font-size:.8rem;padding:7px 14px;border-radius:100px;backdrop-filter:blur(2px)}
+  header.hero{border-radius:22px;overflow:hidden;box-shadow:0 16px 40px rgba(2,50,102,.26);line-height:0}
+  header.hero img{display:block;width:100%;height:auto}
 
   .section-h{font-family:'Fredoka',sans-serif;color:var(--navy-d);font-size:1.35rem;margin:38px 0 4px;display:flex;align-items:center;gap:10px}
   .section-h::before{content:"";width:22px;height:5px;border-radius:3px;background:var(--gold)}
@@ -95,17 +84,8 @@
   </div>
 
   <header class="hero">
-    <div class="inner">
-      <span class="eyebrow">Free classroom learning resources</span>
-      <h1>Learning resources you can use tomorrow.</h1>
-      <p>A home for the free, self-contained teaching tools built by <b>Miguel Guhlin</b> for <b>TCEA</b> — critical-thinking breakouts, literature rooms, STEAM games, history journeys, and AI-literacy resources. Every one runs entirely in the browser. No logins, no accounts, no student data collected.</p>
-      <div class="badges">
-        <span class="badge">🌐 Up to seven languages</span>
-        <span class="badge">🔒 No data collected</span>
-        <span class="badge">🎓 PreK–12 &amp; professional</span>
-        <span class="badge">🆓 Free to use &amp; adapt</span>
-      </div>
-    </div>
+    <img src="learningresources_mglearn.png" width="1672" height="941"
+      alt="Free classroom learning resources. Learning resources you can use tomorrow — a home for the free, self-contained teaching tools built by Miguel Guhlin for TCEA: critical-thinking breakouts, literature rooms, STEAM games, history journeys, and AI-literacy resources. Every one runs entirely in the browser: no logins, no accounts, no student data collected. Up to seven languages, no data collected, PreK–12 and professional, free to use and adapt.">
   </header>
 
   <h2 class="section-h" id="resources">Explore the resources</h2>
