@@ -1,5 +1,5 @@
 {
-  "sourceTitle": "TCEA Module 8 — Project Management and Change Leadership",
+  "sourceTitle": "TCEA Module 8 \u2014 Project Management and Change Leadership",
   "sourceType": "User-supplied curriculum ZIP; conference adaptation",
   "sourceArchive": "TCEA_Module8_Project_Management_JSON_Assets.zip",
   "originalDurationHours": 4,
@@ -41,13 +41,13 @@
       "id": "pm-plan",
       "title": "Build a small plan and test it with a neighbor",
       "start": 37,
-      "end": 47,
+      "end": 48,
       "prompt": "Draft the next decision, owner, dependency, update, and success evidence. Ask a neighbor to find one gap, then revise."
     },
     {
       "id": "pm-commit",
       "title": "Choose the next conversation",
-      "start": 47,
+      "start": 48,
       "end": 50,
       "prompt": "Who will you talk with, what decision will you request, and what evidence will you bring?"
     }
