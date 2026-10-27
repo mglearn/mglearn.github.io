@@ -1,7 +1,7 @@
 {
   "sourceArchive": "TCEA_Module8_Project_Management_JSON_Assets.zip",
   "sha256": "6df42daa6225ab8a8110dbb3019c631901d8b13cf62d5e645a674a2d59948978",
-  "adaptation": "Four-hour source curriculum adapted to a focused 50-minute conference session.",
+  "adaptation": "Presenter-led fifty-minute district technology workshop; shared case, completed worked examples, brief seated discussions, no attendee prework or project.",
   "selectedCase": "Case B: Portable Classroom Without Reliable Internet",
   "retainedIdeas": [
     "Scope and exclusions",
@@ -11,7 +11,10 @@
     "Audience-specific updates",
     "Delivery and adoption measures",
     "Individual change questions",
-    "Revision and next-step planning"
+    "Revision and next-step planning",
+    "Stakeholder buy-in and resistance",
+    "KPIs for delivery and sustained adoption",
+    "Transfer examples: device refresh, cybersecurity, infrastructure, and AI"
   ],
   "omittedFromCore": "Full certification coverage, nine proposed videos, complete method training, and the original long assessment.",
   "visuals": "Original optimized title scene; supplied diagram concepts redesigned as accessible SVG using deck_visuals.py. Archived source-slide screenshots are not used as new conference slides.",
@@ -19,5 +22,6 @@
     "https://www.prosci.com/methodology/adkar",
     "https://www.kotterinc.com/methodology/8-steps/"
   ],
-  "verifiedDate": "2026-10-27"
+  "verifiedDate": "2026-10-27",
+  "infographicGuidance": "Custom-Instructions-TCEA-Infographic-Slide-Decks.txt in the user-specified slide_deck_templates folder; Module_8_1.pptx inspected for visual grammar only. Original ADKAR/Kotter diagrams, paraphrased summaries with primary source links. No source privacy slides imported."
 }

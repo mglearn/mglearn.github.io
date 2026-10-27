@@ -1,5 +1,5 @@
 {
-  "sourceTitle": "TCEA Module 8 \u2014 Project Management and Change Leadership",
+  "sourceTitle": "TCEA Module 8 — Project Management and Change Leadership",
   "sourceType": "User-supplied curriculum ZIP; conference adaptation",
   "sourceArchive": "TCEA_Module8_Project_Management_JSON_Assets.zip",
   "originalDurationHours": 4,
@@ -11,57 +11,84 @@
   "agenda": [
     {
       "id": "pm-notice",
-      "title": "What would you do next?",
+      "title": "See beyond the technical rollout",
       "start": 0,
       "end": 5,
-      "prompt": "A portable classroom is still offline. Facilities and IT each say they are waiting on the other. The principal has no dependable date. What should the project lead do next?"
+      "prompt": "Meet the shared district case. What decision is needed before anyone promises a completion date?"
     },
     {
       "id": "pm-charter",
-      "title": "Define the work before expanding it",
+      "title": "Model scope, stakeholders, and milestones",
       "start": 5,
-      "end": 13,
-      "prompt": "Write a one-sentence problem, one in-scope outcome, and one explicit exclusion."
+      "end": 15,
+      "prompt": "Follow the presenter’s charter and milestone model. Which boundary or stakeholder would you clarify?"
     },
     {
       "id": "pm-dependencies",
-      "title": "Make ownership and dependencies visible",
-      "start": 13,
-      "end": 25,
-      "prompt": "Who must act before the next milestone can happen? Name the owner, a dependency, and one early warning."
+      "title": "Teach dependencies, risks, and communication",
+      "start": 15,
+      "end": 27,
+      "prompt": "Examine the worked handoff, risk response, and update. Discuss who should act next and why."
     },
     {
       "id": "pm-adoption",
-      "title": "Communicate progress and check the change",
-      "start": 25,
-      "end": 37,
-      "prompt": "What update restores accountability? What evidence shows that the classroom can actually use the service?"
+      "title": "Lead change and measure what works",
+      "start": 27,
+      "end": 40,
+      "prompt": "Compare delivery and adoption KPIs. Discuss a barrier to use and choose a useful support response."
     },
     {
       "id": "pm-plan",
-      "title": "Build a small plan and test it with a neighbor",
-      "start": 37,
-      "end": 48,
-      "prompt": "Draft the next decision, owner, dependency, update, and success evidence. Ask a neighbor to find one gap, then revise."
+      "title": "Discuss the next decision",
+      "start": 40,
+      "end": 47,
+      "prompt": "Use the shared case and the presenter’s completed framework. Discuss one next action, an accountable owner, and the evidence to check."
     },
     {
       "id": "pm-commit",
-      "title": "Choose the next conversation",
-      "start": 48,
+      "title": "Review the framework and take the templates",
+      "start": 47,
       "end": 50,
-      "prompt": "Who will you talk with, what decision will you request, and what evidence will you bring?"
+      "prompt": "Check the success criteria, review the model decision, and locate the reusable templates."
     }
   ],
-  "participation": "Think quietly, compare with a neighbor, check a model, and revise. Remain seated; a device is optional.",
-  "sourceNote": "This 50-minute session practices selected planning decisions. It is not completion of the original four-hour module or a project-management certification.",
+  "participation": "Follow presenter models, think briefly, discuss a decision with a neighbor, and compare with the worked example. No project, preparation, or device required.",
+  "sourceNote": "Selected ideas from the supplied four-hour module are taught through a shared district case within fifty minutes. Templates are takeaways, not required prework or a full project assignment.",
   "planningFields": [
-    "Problem and intended outcome",
+    "Shared case: problem and intended outcome",
     "In scope and out of scope",
-    "Sponsor or decision authority",
-    "Next milestone and accountable owner",
-    "Dependency and early warning",
-    "Communication audience, message, and cadence",
-    "Delivery evidence and adoption evidence",
-    "Next conversation and review date"
+    "Stakeholders, concerns, and decision authority",
+    "Milestone, accountable owner, and dependency",
+    "Risk, early warning, response, and owner",
+    "Communication audience, message, channel, and cadence",
+    "Delivery KPI: baseline, target, source, owner, and review point",
+    "Adoption KPI, barrier, support, and follow-up",
+    "Next decision and evidence to check"
+  ],
+  "initiativeExamples": [
+    {
+      "initiative": "Device refresh",
+      "planningQuestion": "Who verifies readiness before devices reach classrooms?",
+      "deliveryKPI": "Share of scheduled devices configured and accepted",
+      "adoptionKPI": "Share of intended classrooms completing the agreed learning workflow"
+    },
+    {
+      "initiative": "Cybersecurity rollout",
+      "planningQuestion": "How will staff receive support when the new sign-in step fails?",
+      "deliveryKPI": "Share of in-scope accounts enrolled in the approved sign-in process",
+      "adoptionKPI": "Successful use of that process and unresolved access barriers"
+    },
+    {
+      "initiative": "Infrastructure upgrade",
+      "planningQuestion": "Who accepts the service at the classroom handoff?",
+      "deliveryKPI": "Share of planned locations passing agreed service tests",
+      "adoptionKPI": "Successful classroom use during the intended teaching workflow"
+    },
+    {
+      "initiative": "AI implementation",
+      "planningQuestion": "Who approves the pilot scope and listens to staff concerns?",
+      "deliveryKPI": "Readiness of approved pilot access, guidance, and support",
+      "adoptionKPI": "Observed use of the approved workflow and unresolved support needs"
+    }
   ]
 }

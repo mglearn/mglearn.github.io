@@ -175,7 +175,7 @@
   {
     "id": "pm-planner",
     "name": "Project next-step planner",
-    "description": "Draft a small fictional or generalized project plan, copy it, and revise it after a colleague’s questions.",
+    "description": "Completed district case framework with optional notes for brief decision discussions. No preparation or project required.",
     "url": "sessions/project-management/participate.html#pm-plan",
     "resourceType": "Planning tool",
     "gradeBands": [
@@ -198,7 +198,7 @@
   {
     "id": "pm-toolkit",
     "name": "Project management toolkit",
-    "description": "Read the conference case and get charter, risk, communication, and scorecard templates.",
+    "description": "Reusable charter, stakeholder/risk map, communication plan, and KPI scorecard for district technology initiatives.",
     "url": "sessions/project-management/toolkit.html",
     "resourceType": "Planning templates",
     "gradeBands": [
