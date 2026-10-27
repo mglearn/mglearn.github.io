@@ -1,0 +1,32 @@
+[
+  {
+    "id": "session-handout",
+    "title": "Session quick reference",
+    "file": "session-handout.pdf",
+    "description": "The five experiences, tool links, participation routine, and a QR code for this session."
+  },
+  {
+    "id": "graph-analysis",
+    "title": "Graph analysis guide",
+    "file": "graph-analysis-guide.pdf",
+    "description": "Scale, axes, evidence, limitations, and the garden graph challenge."
+  },
+  {
+    "id": "strategy-reference",
+    "title": "Strategy-to-tool reference",
+    "file": "strategy-reference.pdf",
+    "description": "Seven strategies with classroom examples, evidence to look for, and research references."
+  },
+  {
+    "id": "lesson-planning",
+    "title": "Math lesson planning template",
+    "file": "lesson-planning-template.pdf",
+    "description": "A reusable plan for the goal, TEKS, strategy, tool, assessment, feedback, and transfer."
+  },
+  {
+    "id": "ace",
+    "title": "ACE math reflection",
+    "file": "ace-math-reflection.pdf",
+    "description": "Articulate the mathematical idea, connect concepts, and extend to a new problem."
+  }
+]

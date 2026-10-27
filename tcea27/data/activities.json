@@ -1,0 +1,86 @@
+[
+  {
+    "id": "notice",
+    "title": "Which graph tells the truth?",
+    "shortTitle": "Notice & predict",
+    "start": 0,
+    "end": 5,
+    "prompt": "Both graphs show Garden A: 12 insects and Garden B: 15 insects. Which graph exaggerates the visual difference?",
+    "strategyIds": [
+      "teacher-clarity",
+      "argumentation",
+      "feedback"
+    ],
+    "presenter": "Give 20 seconds of silent thinking. Ask for one finger for Graph A or two for Graph B. Invite a 30-second neighbor explanation, then reveal the interpretation.",
+    "answer": "Graph B exaggerates the difference. Its vertical axis begins at 10. Garden B has 3 more insects, or 25% more than Garden A—not 2.5 times as many. A zero baseline preserves bar-length comparisons of totals.",
+    "transition": "The data stayed the same. The representation changed what we noticed. Next, make number relationships visible before asking students to calculate.",
+    "toolId": "graphsplat"
+  },
+  {
+    "id": "visible",
+    "title": "Make mathematics visible",
+    "shortTitle": "Model & revise",
+    "start": 5,
+    "end": 15,
+    "prompt": "Start at 4 on a number line and move 3 equal jumps to the right. Where do you land?",
+    "strategyIds": [
+      "teacher-clarity",
+      "direct-instruction",
+      "feedback"
+    ],
+    "presenter": "State the goal: explain addition as movement. Model the start at 4, predict, and reveal one jump at a time. Contrast counting the starting point as the first jump. Ask a neighbor to explain why there are 3 intervals, not 3 visited numbers.",
+    "answer": "You land on 7: 4 → 5 → 6 → 7. The starting number is not a jump. Use objects or a drawing before the number line if needed.",
+    "transition": "An accurate representation supports an accurate explanation. Now ask which representation fits a data question.",
+    "toolId": "digital-math"
+  },
+  {
+    "id": "investigate",
+    "title": "Investigate with GraphSplat",
+    "shortTitle": "Investigate & defend",
+    "start": 15,
+    "end": 35,
+    "prompt": "Which representation best shows how the same campus location changes temperature from 9 a.m. to noon to 3 p.m.?",
+    "strategyIds": [
+      "argumentation",
+      "problem-solving",
+      "feedback",
+      "transfer"
+    ],
+    "presenter": "Spend 7 minutes on the garden scale comparison, 6 minutes choosing a representation, and 7 minutes extending to a lesson. Launch GraphSplat and enter the garden CSV. Keep the local examples ready if Wi-Fi fails. Ask only one or two whole-room explanations.",
+    "answer": "A line graph is useful for this question because the observations are ordered in time. Bars can compare readings, but a line emphasizes change. A pie chart suggests parts of a whole; a scatter plot is useful for relationships between paired numerical variables.",
+    "transition": "Close the examples. What can we retrieve about choosing and interpreting graphs?",
+    "toolId": "graphsplat"
+  },
+  {
+    "id": "retrieve",
+    "title": "Check what sticks",
+    "shortTitle": "Retrieve & check",
+    "start": 35,
+    "end": 45,
+    "prompt": "Recall first. Explain your answer. Then check and revise.",
+    "strategyIds": [
+      "retrieval",
+      "feedback"
+    ],
+    "presenter": "Give about 45 seconds per question: silent recall, optional fingers or private note, neighbor explanation, reveal, revision. Use the remaining time to demonstrate how to build a similar recall set in Quiz and Flashcard Studio. Revisit with a different dataset in a later lesson.",
+    "answer": "1: A bar-chart baseline changes apparent bar-length ratios. 2: A line graph helps show change over time. 3: Explain 4 + 3 by three jumps from 4, ending at 7.",
+    "transition": "A correct choice is a starting point. Plan how you will elicit and respond to explanations tomorrow.",
+    "toolId": "quiz-studio"
+  },
+  {
+    "id": "apply",
+    "title": "ACE your math lesson",
+    "shortTitle": "Apply tomorrow",
+    "start": 45,
+    "end": 50,
+    "prompt": "Articulate a strategy, connect it to a tool, and extend it to your own mathematical concept.",
+    "strategyIds": [
+      "transfer",
+      "teacher-clarity"
+    ],
+    "presenter": "Give 2 minutes for an individual plan, 1 minute to share with a neighbor, and 2 minutes for a final revision and resource links. Invite a plan on paper or in the browser. No collection of responses.",
+    "answer": "A useful plan names a mathematical goal, a strategy, a tool serving that goal, evidence of understanding, and a next task in a new context.",
+    "transition": "Open the resource library and download the packet. The activities remain available after the convention.",
+    "toolId": "digital-math"
+  }
+]

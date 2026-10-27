@@ -1,0 +1,46 @@
+[
+  {
+    "gradeBand": "K–2",
+    "title": "Count the jumps, not the starting point",
+    "intention": "Explain joining and separating with objects, drawings, and a number line.",
+    "task": "Model 4 + 3 with counters, then show three one-unit jumps from 4 to 7. Ask what each jump represents.",
+    "evidence": "Learners distinguish the starting point from the three moves and explain the sum.",
+    "feedback": "Cue: “Show each space you traveled.” Extend to a new start and compare methods.",
+    "teks": "Kindergarten K.3(A)–(C): model joining/separating, solve within 10, and explain strategies. The number line is an instructional bridge; begin with the objects and drawings named in the standard.",
+    "source": "https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch111a.pdf",
+    "verifiedDate": "2026-10-27"
+  },
+  {
+    "gradeBand": "3–5",
+    "title": "Garden evidence and fair comparisons",
+    "intention": "Represent category counts and justify a comparison using a scaled bar graph.",
+    "task": "Use the synthetic counts 12 and 15. Build a zero-baseline bar graph, explain the 3-insect difference, and critique a second display starting at 10.",
+    "evidence": "Learners use the axis, values, and a calculation as evidence rather than relying only on apparent bar heights.",
+    "feedback": "Cue: “Where do the bars start?” Extend by collecting equal-effort samples with additional categories.",
+    "teks": "Grade 3: 3.8(A)–(B), summarize categorical data using displays including scaled bar graphs and solve one- and two-step problems from them.",
+    "source": "https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch111a.pdf",
+    "verifiedDate": "2026-10-27"
+  },
+  {
+    "gradeBand": "6–8",
+    "title": "Compare groups before making a claim",
+    "intention": "Represent and compare numerical distributions, not just isolated category totals.",
+    "task": "Collect repeated equal-effort insect counts in two locations. Use dot plots or box plots; compare center, spread, overlap, and sampling limitations.",
+    "evidence": "Learners support a comparison using the distribution and acknowledge that a single count is insufficient.",
+    "feedback": "Cue: “What do repeated samples show?” Extend to a second day and discuss variation.",
+    "teks": "Grade 6: 6.12(A), represent numerical data with displays including dot plots and box plots; 6.13(A), interpret those summaries. The two-garden bar example is the launch, not a full match to these distribution expectations.",
+    "source": "https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch111b.pdf",
+    "verifiedDate": "2026-10-27"
+  },
+  {
+    "gradeBand": "9–12",
+    "title": "Relationships are not causes",
+    "intention": "Fit a linear relationship to paired data and distinguish prediction from a causal claim.",
+    "task": "Measure sunlight hours and plant height for several plants. Make a scatter plot, consider a reasonable linear model, and discuss variables not controlled.",
+    "evidence": "Learners interpret a model, make a supported prediction, and explain why association alone does not show sunlight caused a specific change.",
+    "feedback": "Cue: “What else could differ?” Extend to a new sample and test the model’s limitations.",
+    "teks": "Algebra I: A.4(A)–(C), interpret correlation, distinguish association and causation, and fit linear functions to data for predictions.",
+    "source": "https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch111c.pdf",
+    "verifiedDate": "2026-10-27"
+  }
+]

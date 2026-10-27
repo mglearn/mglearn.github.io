@@ -1,0 +1,168 @@
+{
+  "session-handout": [
+    [
+      "The session",
+      "High-Impact Teaching Math Tools Without the Price Tag"
+    ],
+    [
+      "Your 50-minute route",
+      "0-5 min: Which graph tells the truth?\n5-15 min: Make mathematics visible\n15-35 min: Investigate with GraphSplat\n35-45 min: Check what sticks\n45-50 min: ACE your math lesson"
+    ],
+    [
+      "Participation",
+      "Think, vote, explain, check, revise. Use fingers, a neighbor explanation, paper, or optional browser controls. Stay in your seat; no account or submitted responses."
+    ],
+    [
+      "Featured tools",
+      "Digital Math Tools\nhttps://mglearn.github.io/activities/digitalmathtools/\nPurpose: Make number relationships visible.\nGraphSplat\nhttps://splatworks.org/solutions/graphsplat/\nPurpose: Investigate data.\nQuiz and Flashcard Studio\nhttps://splatworks.org/solutions/quiz-flashcard-studio/\nPurpose: Retrieve prior learning."
+    ],
+    [
+      "Strategy connections",
+      "Teacher clarity; direct instruction; argumentation; mathematical problem solving; corrective feedback; retrieval practice; transfer strategies."
+    ],
+    [
+      "Before tomorrow",
+      "Choose one mathematical goal, one strategy, and one tool serving that goal. Decide what students will explain and how you will respond to a misconception."
+    ],
+    [
+      "Open the session",
+      "https://mglearn.github.io/tcea27/sessions/math-without-price-tag/"
+    ]
+  ],
+  "graph-analysis": [
+    [
+      "Start with the question",
+      "What is being measured? Who or what was sampled? Is the question about categories, change over time, a distribution, or a relationship?"
+    ],
+    [
+      "Check the display",
+      "Read the title, source, axis labels, units, intervals, and baseline. Look for omitted categories, unequal intervals, distorted areas, and missing context. Is the representation appropriate for the question?"
+    ],
+    [
+      "Garden challenge",
+      "Synthetic data: Garden A = 12 insects; Garden B = 15 insects. Graph A has a vertical baseline of 0. Graph B has a vertical baseline of 10. Which exaggerates the visual difference?"
+    ],
+    [
+      "Answer and reasoning",
+      "Graph B. The actual difference is 3 insects; 15 is 25% more than 12. The visible lengths above ten are 2 and 5, a ratio of 2.5. A zero baseline preserves bar-length comparisons of totals. Some line graphs can reasonably use nonzero baselines; always explain the context."
+    ],
+    [
+      "Student explanation prompts",
+      "My claim is ____. The axis and values show ____. My calculation is ____. A limitation of this dataset is ____. I would need more information about ____."
+    ],
+    [
+      "Sampling matters",
+      "Equal-area sampling and equal observation effort matter. Two isolated counts do not describe variation or establish why the locations differ. Collect repeated observations before drawing broader conclusions."
+    ],
+    [
+      "Choose a representation",
+      "Categories: bar chart. Ordered change: line graph. Parts exhausting a whole: pie chart. Paired numerical variables: scatter plot. Distribution: dot plot, histogram, or box plot as appropriate. The question and structure of the data determine the choice."
+    ],
+    [
+      "Source and further learning",
+      "https://splatworks.org/solutions/graphsplat/lesson-plans"
+    ]
+  ],
+  "strategy-reference": [
+    [
+      "Use this reference",
+      "Start with the mathematical goal. Identify the strategy, a tool that serves it, and observable reasoning. Values below are the current MetaX weighted mean effect sizes; they are not tool ratings or promises of gains."
+    ],
+    [
+      "Teacher clarity | Digital Math Tools",
+      "Before comparing graphs, say: “Use the axis scale and the values to explain how the same counts can look different.”\nLearning evidence: A learner states the goal and explains the success criteria.\nMetaX influence: Teacher clarity; weighted mean d = 0.85. Verified 2026-10-27.\nThis synthesis concerns clarity across settings; naming a goal alone is not the full approach.\nhttps://www.visiblelearningmetax.com/influences/view/teacher_clarity"
+    ],
+    [
+      "Direct instruction | Digital Math Tools",
+      "Think aloud as you count three jumps from 4 on a number line. Ask learners to solve a similar example and explain the jumps.\nLearning evidence: A learner explains each step in a similar new example.\nMetaX influence: Direct instruction; weighted mean d = 0.56. Verified 2026-10-27.\nThis broad influence includes structured instructional programs. One demonstration is only a small illustration.\nhttps://www.visiblelearningmetax.com/influences/view/direct_instruction"
+    ],
+    [
+      "Argumentation | GraphSplat",
+      "Defend the zero-baseline graph using the insect counts, then discuss what a truncated baseline changes.\nLearning evidence: A claim includes labels, values, and a response to another explanation.\nMetaX influence: Argumentation / Classroom discussion; weighted mean d = 0.86. Verified 2026-10-27.\nA short neighbor exchange models a discussion routine; it does not reproduce every condition in these studies.\nhttps://www.visiblelearningmetax.com/influences/view/argumentation~classroom_discussion"
+    ],
+    [
+      "Mathematical problem solving | GraphSplat",
+      "Plan equal-area garden samples, choose a display, and explain what the counts do and do not tell you.\nLearning evidence: A learner chooses a representation and checks its fit to the question.\nMetaX influence: Mathematics problem solving; weighted mean d = 0.79. Verified 2026-10-27.\nThe synthesis covers varied mathematical interventions and learners. Its estimate is not a prediction for one activity.\nhttps://www.visiblelearningmetax.com/influences/view/mathematics_problem_solving"
+    ],
+    [
+      "Corrective feedback | GraphSplat",
+      "If a learner says Garden B has twice as many insects, cue them to read the labels and calculate 15 minus 12.\nLearning evidence: A revised explanation addresses the specific misconception.\nMetaX influence: Feedback; weighted mean d = 0.5. Verified 2026-10-27.\nThe reported value is for the broader Feedback influence, not a separate estimate for corrective feedback or software feedback.\nhttps://www.visiblelearningmetax.com/influences/view/feedback"
+    ],
+    [
+      "Retrieval practice | Quiz and Flashcard Studio",
+      "Answer the three graph questions from memory, review the reasoning, and revisit a new example next week.\nLearning evidence: A learner recalls and then corrects an explanation without looking back first.\nMetaX influence: Practice testing; weighted mean d = 0.49. Verified 2026-10-27.\nMetaX calls this Practice testing. A three-question conference activity illustrates the routine; it does not establish a learning gain.\nhttps://www.visiblelearningmetax.com/influences/view/practice_testing"
+    ],
+    [
+      "Transfer strategies | GraphSplat",
+      "Apply the same scale-checking routine to a campus temperature graph and explain what changes for a line graph.\nLearning evidence: A learner adapts the reasoning to a new dataset or concept.\nMetaX influence: Transfer strategies; weighted mean d = 0.89. Verified 2026-10-27.\nTransfer depends on the prior learning and the distance between tasks. A reflection prompts planning, not proof of transfer.\nhttps://www.visiblelearningmetax.com/influences/view/transfer_strategies"
+    ]
+  ],
+  "lesson-planning": [
+    [
+      "Plan with the learning first",
+      "Choose a mathematical intention before selecting software. A tool is useful when it helps students represent, explain, or test an idea."
+    ],
+    [
+      "Grade and mathematical concept",
+      "__________________________________________________________________\n__________________________________________________________________"
+    ],
+    [
+      "Relevant TEKS and source / date checked",
+      "__________________________________________________________________\n__________________________________________________________________"
+    ],
+    [
+      "Learning intention and success criteria",
+      "__________________________________________________________________\n__________________________________________________________________"
+    ],
+    [
+      "Student prior knowledge and likely misconception",
+      "__________________________________________________________________\n__________________________________________________________________"
+    ],
+    [
+      "Digital tool and instructional purpose",
+      "__________________________________________________________________\n__________________________________________________________________"
+    ],
+    [
+      "Instructional strategy and teacher model",
+      "__________________________________________________________________\n__________________________________________________________________"
+    ],
+    [
+      "Student activity and optional paper alternative",
+      "__________________________________________________________________\n__________________________________________________________________"
+    ],
+    [
+      "Assessment evidence: what students will explain or show",
+      "__________________________________________________________________\n__________________________________________________________________"
+    ],
+    [
+      "Feedback cue and opportunity to revise",
+      "__________________________________________________________________\n__________________________________________________________________"
+    ],
+    [
+      "Transfer task: a different concept, context, or dataset",
+      "__________________________________________________________________\n__________________________________________________________________"
+    ],
+    [
+      "Verify the standard",
+      "Use the current TEA Chapter 111 documents and your district sequence.\nhttps://tea.texas.gov/laws-and-rules/texas-administrative-code/19-tac-chapter-111"
+    ]
+  ],
+  "ace": [
+    [
+      "ARTICULATE: Explain the mathematical idea",
+      "What does the representation show? Explain the reasoning in your own words.\n\n__________________________________________________________________\n__________________________________________________________________\n__________________________________________________________________"
+    ],
+    [
+      "CONNECT: Relate it to another concept",
+      "How does the idea connect to another representation, strategy, or mathematical relationship?\n\n__________________________________________________________________\n__________________________________________________________________\n__________________________________________________________________"
+    ],
+    [
+      "EXTEND: Apply it to a new problem",
+      "Change the dataset, starting point, or context. What stays the same? What must change?\n\n__________________________________________________________________\n__________________________________________________________________\n__________________________________________________________________"
+    ],
+    [
+      "For the educator",
+      "Name the instructional strategy, choose a tool that serves the goal, and describe the evidence you will look for. Use the browser ACE builder to plan instruction; use this student-facing version to prompt mathematical explanation."
+    ]
+  ]
+}

@@ -1,0 +1,175 @@
+[
+  {
+    "id": "digital-math",
+    "name": "Digital Math Tools",
+    "description": "Explore number models, manipulatives, measurement, and graphing. Begin with a learning goal, predict a result, and explain the representation.",
+    "url": "https://mglearn.github.io/activities/digitalmathtools/",
+    "resourceType": "Interactive tool",
+    "gradeBands": [
+      "PreK–K",
+      "K–2",
+      "3–5",
+      "6–8",
+      "9–12"
+    ],
+    "subjects": [
+      "Mathematics"
+    ],
+    "instructionalUses": [
+      "Make number relationships visible",
+      "Model and check a misconception"
+    ],
+    "instructionalStrategies": [
+      "teacher-clarity",
+      "direct-instruction",
+      "feedback"
+    ],
+    "relatedSessions": [
+      "math-without-price-tag"
+    ],
+    "verifiedDate": "2026-10-27"
+  },
+  {
+    "id": "graphsplat",
+    "name": "GraphSplat",
+    "description": "Create and compare representations of data. Ask learners to defend how the scale and graph type answer their question.",
+    "url": "https://splatworks.org/solutions/graphsplat/",
+    "resourceType": "Interactive tool",
+    "gradeBands": [
+      "3–5",
+      "6–8",
+      "9–12"
+    ],
+    "subjects": [
+      "Mathematics"
+    ],
+    "instructionalUses": [
+      "Investigate data",
+      "Explain patterns with evidence"
+    ],
+    "instructionalStrategies": [
+      "argumentation",
+      "problem-solving",
+      "transfer",
+      "feedback"
+    ],
+    "relatedSessions": [
+      "math-without-price-tag"
+    ],
+    "verifiedDate": "2026-10-27"
+  },
+  {
+    "id": "graph-lessons",
+    "name": "GraphSplat Lesson Plans",
+    "description": "Use existing science-and-mathematics investigations in biodiversity, temperature, and relationships; adapt the sampling and questions to your class.",
+    "url": "https://splatworks.org/solutions/graphsplat/lesson-plans",
+    "resourceType": "Lesson plans",
+    "gradeBands": [
+      "3–5",
+      "6–8",
+      "9–12"
+    ],
+    "subjects": [
+      "Mathematics"
+    ],
+    "instructionalUses": [
+      "Plan an investigation",
+      "Connect representations to TEKS"
+    ],
+    "instructionalStrategies": [
+      "problem-solving",
+      "transfer"
+    ],
+    "relatedSessions": [
+      "math-without-price-tag"
+    ],
+    "verifiedDate": "2026-10-27"
+  },
+  {
+    "id": "quiz-studio",
+    "name": "Quiz and Flashcard Studio",
+    "description": "Build short recall checks and reusable flashcards. Ask learners to retrieve an explanation before revealing feedback.",
+    "url": "https://splatworks.org/solutions/quiz-flashcard-studio/",
+    "resourceType": "Interactive tool",
+    "gradeBands": [
+      "K–2",
+      "3–5",
+      "6–8",
+      "9–12"
+    ],
+    "subjects": [
+      "Mathematics"
+    ],
+    "instructionalUses": [
+      "Retrieve prior learning",
+      "Check and revise explanations"
+    ],
+    "instructionalStrategies": [
+      "retrieval",
+      "feedback"
+    ],
+    "relatedSessions": [
+      "math-without-price-tag"
+    ],
+    "verifiedDate": "2026-10-27"
+  },
+  {
+    "id": "metax",
+    "name": "Visible Learning MetaX",
+    "description": "Read the underlying influence records and research context. Strategy findings do not assign effect sizes to the featured digital tools.",
+    "url": "https://www.visiblelearningmetax.com/",
+    "resourceType": "Research",
+    "gradeBands": [
+      "K–2",
+      "3–5",
+      "6–8",
+      "9–12"
+    ],
+    "subjects": [
+      "Professional Learning"
+    ],
+    "instructionalUses": [
+      "Check instructional research",
+      "Interpret evidence in context"
+    ],
+    "instructionalStrategies": [
+      "teacher-clarity",
+      "direct-instruction",
+      "argumentation",
+      "problem-solving",
+      "feedback",
+      "retrieval",
+      "transfer"
+    ],
+    "relatedSessions": [
+      "math-without-price-tag"
+    ],
+    "verifiedDate": "2026-10-27"
+  },
+  {
+    "id": "teks",
+    "name": "TEA Mathematics Standards",
+    "description": "Read the current Chapter 111 mathematics standards before adapting a lesson to your district sequence.",
+    "url": "https://tea.texas.gov/laws-and-rules/texas-administrative-code/19-tac-chapter-111",
+    "resourceType": "Standards",
+    "gradeBands": [
+      "K–2",
+      "3–5",
+      "6–8",
+      "9–12"
+    ],
+    "subjects": [
+      "Mathematics"
+    ],
+    "instructionalUses": [
+      "Verify lesson correlations"
+    ],
+    "instructionalStrategies": [
+      "teacher-clarity"
+    ],
+    "relatedSessions": [
+      "math-without-price-tag"
+    ],
+    "verifiedDate": "2026-10-27"
+  }
+]

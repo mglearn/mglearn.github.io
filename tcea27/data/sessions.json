@@ -1,0 +1,73 @@
+[
+  {
+    "id": "math-without-price-tag",
+    "slug": "math-without-price-tag",
+    "title": "High-Impact Teaching Math Tools Without the Price Tag",
+    "shortDescription": "Free math tools. Purposeful teaching. Make student thinking visible without another subscription.",
+    "fullDescription": "Math instruction shouldn’t require another subscription. Experience free digital math tools paired with research-informed instructional strategies that make student thinking visible. Through presenter-led demonstrations and quick audience challenges, explore Digital Math Tools for number concepts, GraphSplat for data analysis and mathematical reasoning, and Quiz and Flashcard Studio for retrieval practice. See how modeling, argumentation, feedback, and problem-solving work together. Leave with TEKS-connected lessons, reusable activities, and practical ideas you can use without purchasing another tool.",
+    "durationMinutes": 50,
+    "format": "Presenter-led demonstration with structured participation",
+    "audience": [
+      "K–12 mathematics educators",
+      "Instructional coaches",
+      "School leaders"
+    ],
+    "gradeBands": [
+      "PreK–K",
+      "K–2",
+      "3–5",
+      "6–8",
+      "9–12"
+    ],
+    "presenters": [
+      {
+        "name": "Miguel Guhlin",
+        "url": "https://mglearn.github.io/"
+      }
+    ],
+    "learningObjectives": [
+      "Identify free browser-based tools that support mathematics instruction.",
+      "Experience research-informed instructional strategies and discuss their purpose.",
+      "Use manipulatives, graphs, and recall checks to make mathematical thinking visible.",
+      "Plan a short classroom activity with a goal, strategy, tool, and evidence of learning.",
+      "Locate and adapt TEKS-connected lesson resources."
+    ],
+    "featuredTools": [
+      "digital-math",
+      "graphsplat",
+      "quiz-studio"
+    ],
+    "featuredStrategies": [
+      "teacher-clarity",
+      "direct-instruction",
+      "argumentation",
+      "problem-solving",
+      "feedback",
+      "retrieval",
+      "transfer"
+    ],
+    "activities": [
+      "notice",
+      "visible",
+      "investigate",
+      "retrieve",
+      "apply"
+    ],
+    "resources": [
+      "digital-math",
+      "graphsplat",
+      "graph-lessons",
+      "quiz-studio",
+      "metax",
+      "teks"
+    ],
+    "downloads": [
+      "session-handout",
+      "graph-analysis",
+      "strategy-reference",
+      "lesson-planning",
+      "ace"
+    ],
+    "status": "published"
+  }
+]

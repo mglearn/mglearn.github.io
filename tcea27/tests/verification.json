@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-27",
+  "title": "High-Impact Teaching Math Tools Without the Price Tag",
+  "browserChecks": 61,
+  "htmlPages": 17,
+  "axeVersion": "4.10.3",
+  "axeRuleTags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21aa",
+    "wcag22aa"
+  ],
+  "automatedViolations": 0,
+  "reflowWidths": [
+    390,
+    320
+  ],
+  "localReferences": 368,
+  "pdfs": 5,
+  "offline": "Extracted file:// packet: navigation, answer reveals, reflection copying and presenter controls pass with networking disabled and zero HTTP requests.",
+  "futureSessions": "Draft hidden; published second workshop card shows new title, duration, format and audience in isolated copy.",
+  "research": "Seven current MetaX weighted mean effect sizes verified from primary records; TEA Chapter111 examples checked.",
+  "limits": [
+    "Automated checks are not a full WCAG conformance certification.",
+    "PDFs have selectable text and semantic HTML alternatives; PDF/UA tagging is not claimed.",
+    "External tools and references require internet access."
+  ]
+}

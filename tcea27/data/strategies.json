@@ -1,0 +1,142 @@
+[
+  {
+    "id": "teacher-clarity",
+    "name": "Teacher clarity",
+    "description": "Make the learning goal and evidence of success understandable before the task.",
+    "effectSize": 0.85,
+    "effectSizeSource": "https://www.visiblelearningmetax.com/influences/view/teacher_clarity",
+    "sourceName": "Visible Learning MetaX 1.4 (February 2026)",
+    "influenceName": "Teacher clarity",
+    "category": "Teacher / Teacher attributes",
+    "statistic": "Weighted mean effect size (d)",
+    "verifiedDate": "2026-10-27",
+    "classroomExample": "Before comparing graphs, say: “Use the axis scale and the values to explain how the same counts can look different.”",
+    "relatedTools": [
+      "Digital Math Tools"
+    ],
+    "relatedSessions": [
+      "math-without-price-tag"
+    ],
+    "limitations": "This synthesis concerns clarity across settings; naming a goal alone is not the full approach."
+  },
+  {
+    "id": "direct-instruction",
+    "name": "Direct instruction",
+    "description": "Model a process, check understanding, then gradually give learners more responsibility.",
+    "effectSize": 0.56,
+    "effectSizeSource": "https://www.visiblelearningmetax.com/influences/view/direct_instruction",
+    "sourceName": "Visible Learning MetaX 1.4 (February 2026)",
+    "influenceName": "Direct instruction",
+    "category": "Teaching Strategies / Instructional strategies",
+    "statistic": "Weighted mean effect size (d)",
+    "verifiedDate": "2026-10-27",
+    "classroomExample": "Think aloud as you count three jumps from 4 on a number line. Ask learners to solve a similar example and explain the jumps.",
+    "relatedTools": [
+      "Digital Math Tools"
+    ],
+    "relatedSessions": [
+      "math-without-price-tag"
+    ],
+    "limitations": "This broad influence includes structured instructional programs. One demonstration is only a small illustration."
+  },
+  {
+    "id": "argumentation",
+    "name": "Argumentation",
+    "description": "Invite a claim, mathematical evidence, and a response to another explanation.",
+    "effectSize": 0.86,
+    "effectSizeSource": "https://www.visiblelearningmetax.com/influences/view/argumentation~classroom_discussion",
+    "sourceName": "Visible Learning MetaX 1.4 (February 2026)",
+    "influenceName": "Argumentation / Classroom discussion",
+    "category": "Teaching Strategies / Instructional strategies",
+    "statistic": "Weighted mean effect size (d)",
+    "verifiedDate": "2026-10-27",
+    "classroomExample": "Defend the zero-baseline graph using the insect counts, then discuss what a truncated baseline changes.",
+    "relatedTools": [
+      "GraphSplat"
+    ],
+    "relatedSessions": [
+      "math-without-price-tag"
+    ],
+    "limitations": "A short neighbor exchange models a discussion routine; it does not reproduce every condition in these studies."
+  },
+  {
+    "id": "problem-solving",
+    "name": "Mathematical problem solving",
+    "description": "Choose and test a mathematical approach to answer a practical question.",
+    "effectSize": 0.79,
+    "effectSizeSource": "https://www.visiblelearningmetax.com/influences/view/mathematics_problem_solving",
+    "sourceName": "Visible Learning MetaX 1.4 (February 2026)",
+    "influenceName": "Mathematics problem solving",
+    "category": "Curricula / Math and sciences",
+    "statistic": "Weighted mean effect size (d)",
+    "verifiedDate": "2026-10-27",
+    "classroomExample": "Plan equal-area garden samples, choose a display, and explain what the counts do and do not tell you.",
+    "relatedTools": [
+      "GraphSplat"
+    ],
+    "relatedSessions": [
+      "math-without-price-tag"
+    ],
+    "limitations": "The synthesis covers varied mathematical interventions and learners. Its estimate is not a prediction for one activity."
+  },
+  {
+    "id": "feedback",
+    "name": "Corrective feedback",
+    "description": "Point to a specific gap, give a usable cue, and allow a revised response.",
+    "effectSize": 0.5,
+    "effectSizeSource": "https://www.visiblelearningmetax.com/influences/view/feedback",
+    "sourceName": "Visible Learning MetaX 1.4 (February 2026)",
+    "influenceName": "Feedback",
+    "category": "Teaching Strategies / Feedback",
+    "statistic": "Weighted mean effect size (d)",
+    "verifiedDate": "2026-10-27",
+    "classroomExample": "If a learner says Garden B has twice as many insects, cue them to read the labels and calculate 15 minus 12.",
+    "relatedTools": [
+      "GraphSplat"
+    ],
+    "relatedSessions": [
+      "math-without-price-tag"
+    ],
+    "limitations": "The reported value is for the broader Feedback influence, not a separate estimate for corrective feedback or software feedback."
+  },
+  {
+    "id": "retrieval",
+    "name": "Retrieval practice",
+    "description": "Recall an idea before looking back, then check the explanation and try again later.",
+    "effectSize": 0.49,
+    "effectSizeSource": "https://www.visiblelearningmetax.com/influences/view/practice_testing",
+    "sourceName": "Visible Learning MetaX 1.4 (February 2026)",
+    "influenceName": "Practice testing",
+    "category": "Student Learning Strategies / Learning strategies",
+    "statistic": "Weighted mean effect size (d)",
+    "verifiedDate": "2026-10-27",
+    "classroomExample": "Answer the three graph questions from memory, review the reasoning, and revisit a new example next week.",
+    "relatedTools": [
+      "Quiz and Flashcard Studio"
+    ],
+    "relatedSessions": [
+      "math-without-price-tag"
+    ],
+    "limitations": "MetaX calls this Practice testing. A three-question conference activity illustrates the routine; it does not establish a learning gain."
+  },
+  {
+    "id": "transfer",
+    "name": "Transfer strategies",
+    "description": "Recognize when an established idea helps with a different problem and adapt it deliberately.",
+    "effectSize": 0.89,
+    "effectSizeSource": "https://www.visiblelearningmetax.com/influences/view/transfer_strategies",
+    "sourceName": "Visible Learning MetaX 1.4 (February 2026)",
+    "influenceName": "Transfer strategies",
+    "category": "Student Learning Strategies / Meta-cognitive/self-regulated learning",
+    "statistic": "Weighted mean effect size (d)",
+    "verifiedDate": "2026-10-27",
+    "classroomExample": "Apply the same scale-checking routine to a campus temperature graph and explain what changes for a line graph.",
+    "relatedTools": [
+      "GraphSplat"
+    ],
+    "relatedSessions": [
+      "math-without-price-tag"
+    ],
+    "limitations": "Transfer depends on the prior learning and the distance between tasks. A reflection prompts planning, not proof of transfer."
+  }
+]
