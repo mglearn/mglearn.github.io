@@ -139,5 +139,86 @@
     "status": "published",
     "image": "assets/images/project-management-photo.webp",
     "imageAlt": "Illustrative school leadership planning table with timeline notes and collaborative hands"
+  },
+  {
+    "id": "play-explore-explain",
+    "slug": "play-explore-explain",
+    "title": "Play, Explore, Explain: Cooperative Learning in Action",
+    "shortDescription": "Play a game, explore with colleagues, and turn shared activity into explanation, feedback, and classroom ideas.",
+    "fullDescription": "Want students to do more than play a game or complete a digital activity? Let’s try the activities together and look closely at the thinking they invite. We’ll begin with a short learning game, then work in small groups to explore review, problem-solving, creativity, and formative assessment. You’ll try a shared task, explain your choices, listen to a colleague, and consider what you’d adapt for your learners. Leave with practical ideas and reusable activities. Bring a smartphone, tablet, or laptop; one shared device per group works too.",
+    "durationMinutes": 50,
+    "format": "Interactive session with small-group exploration and whole-group sharing",
+    "audience": [
+      "K–12 educators",
+      "Instructional coaches",
+      "Librarians",
+      "Instructional technology specialists"
+    ],
+    "gradeBands": [
+      "K–2",
+      "3–5",
+      "6–8",
+      "9–12"
+    ],
+    "presenters": [
+      {
+        "name": "Miguel Guhlin",
+        "url": "https://mguhlin.org/"
+      }
+    ],
+    "learningObjectives": [
+      "Experience cooperative learning activities that encourage participation, explanation, and reflection.",
+      "Explore instructional activities that support retrieval practice, formative assessment, and deeper learning.",
+      "Identify and share practical ways to adapt interactive activities for classroom use."
+    ],
+    "successCriteria": [
+      "Help your group complete a shared task while every person explains a choice.",
+      "Describe evidence of retrieval, peer explanation, or formative assessment in an activity.",
+      "Adapt an activity with a learning goal, a participation routine, and a way to check understanding."
+    ],
+    "featuredTools": [
+      "coop-bingo",
+      "quiz-studio",
+      "coop-meme",
+      "coop-story",
+      "coop-dice",
+      "coop-fortune"
+    ],
+    "featuredStrategies": [
+      "cooperative",
+      "peer-explanation",
+      "elaboration",
+      "retrieval",
+      "formative"
+    ],
+    "activities": [
+      "play",
+      "connect",
+      "explore",
+      "share",
+      "adapt",
+      "check"
+    ],
+    "resources": [
+      "coop-bingo",
+      "coop-caller",
+      "quiz-studio",
+      "coop-meme",
+      "coop-story",
+      "coop-dice",
+      "coop-fortune",
+      "coop-evidence",
+      "learning-study-guide"
+    ],
+    "downloads": [
+      "coop-handout",
+      "coop-exploration",
+      "coop-adaptation",
+      "coop-bingo-cards"
+    ],
+    "status": "published",
+    "image": "assets/images/cooperative-learning-photo.webp",
+    "imageAlt": "Illustrative adult educators playing and explaining a shared tabletop learning activity",
+    "technology": "Smartphone, tablet, or laptop; one shared device per small group is enough."
   }
 ]

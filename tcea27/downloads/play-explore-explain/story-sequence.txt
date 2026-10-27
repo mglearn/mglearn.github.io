@@ -1,0 +1,6 @@
+Story Wheel example: A seed grows
+Event one: A seed receives water under suitable conditions.
+Event two: A root emerges and a shoot begins to grow.
+Event three: Leaves develop and the young plant can use light.
+Ask: Why does this order make sense? What information would help you explain the process?
+Adapt the science detail and language for your learners.

@@ -1,0 +1,189 @@
+{
+  "title": "Play, Explore, Explain: Cooperative Learning in Action",
+  "technology": "Smartphone, tablet, or laptop; one shared device per small group is enough.",
+  "agenda": [
+    {
+      "id": "play",
+      "start": 0,
+      "end": 9,
+      "title": "Play a short concept Bingo game",
+      "prompt": "Think about a clue, mark a concept, and explain why it fits."
+    },
+    {
+      "id": "connect",
+      "start": 9,
+      "end": 18,
+      "title": "Notice what makes the learning cooperative",
+      "prompt": "Choose a shared goal, give everyone thinking time, and agree how you’ll take turns."
+    },
+    {
+      "id": "explore",
+      "start": 18,
+      "end": 34,
+      "title": "Explore two activities with your group",
+      "prompt": "Try one tool in each eight-minute round. Rotate roles and record what learners would explain."
+    },
+    {
+      "id": "share",
+      "start": 34,
+      "end": 42,
+      "title": "Share what you discovered",
+      "prompt": "Offer a short example, a piece of learning evidence, and one question."
+    },
+    {
+      "id": "adapt",
+      "start": 42,
+      "end": 47,
+      "title": "Make one activity work for your classroom",
+      "prompt": "Choose a learning goal, a prompt, a participation routine, and a check for understanding."
+    },
+    {
+      "id": "check",
+      "start": 47,
+      "end": 50,
+      "title": "Explain what you’ll take with you",
+      "prompt": "Answer a short retrieval check and name one adjustment you’ll try."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Retrieval practice",
+      "clue": "You close your notes and try to recall the idea before looking back."
+    },
+    {
+      "term": "Peer explanation",
+      "clue": "A classmate explains why the answer makes sense, not just which option to click."
+    },
+    {
+      "term": "Evidence",
+      "clue": "You point to a detail, example, or result that supports your claim."
+    },
+    {
+      "term": "Feedback",
+      "clue": "A useful cue helps you correct a misconception and try again."
+    },
+    {
+      "term": "Reflection",
+      "clue": "You describe how your thinking changed after the activity."
+    },
+    {
+      "term": "Shared goal",
+      "clue": "Your group works toward one product that needs everyone’s contribution."
+    },
+    {
+      "term": "Formative assessment",
+      "clue": "You use what learners say or do to decide what teaching comes next."
+    },
+    {
+      "term": "Elaboration",
+      "clue": "You connect a new idea to an example and explain how they relate."
+    }
+  ],
+  "tools": [
+    {
+      "id": "coop-bingo",
+      "name": "Bingo Card Generator and Bingo Caller",
+      "url": "https://splatworks.org/solutions/bingo-card-generator/",
+      "secondUrl": "https://splatworks.org/solutions/bingo-caller/",
+      "purpose": "Review and explain a concept before marking it.",
+      "task": "Paste the eight workshop terms into a three-by-three card with a free center. Read a clue, let each person decide, then ask a teammate to explain why the term fits before marking.",
+      "product": "One marked concept with an explanation everyone can give.",
+      "listenFor": "An explanation that connects the clue to the concept, rather than a lucky match.",
+      "starter": "bingo-terms.txt",
+      "round": 1
+    },
+    {
+      "id": "quiz-studio",
+      "name": "Quiz and Flashcard Studio",
+      "url": "https://splatworks.org/solutions/quiz-flashcard-studio/",
+      "purpose": "Recall first, compare reasoning, then use feedback.",
+      "task": "Import the workshop quiz CSV. Each person answers silently before the group compares reasoning. Reveal the explanation, then choose one item for another try. The current tool also uses the QuizSplat name.",
+      "product": "A revised answer and a reason for the revision.",
+      "listenFor": "Each person recalls before seeing a teammate’s answer.",
+      "starter": "review-quiz.csv",
+      "round": 2
+    },
+    {
+      "id": "coop-meme",
+      "name": "Meme Puzzle",
+      "url": "https://splatworks.org/solutions/memepuzzle/",
+      "purpose": "Use a puzzle reveal to invite explanations.",
+      "task": "Load the workshop question-and-answer CSV or choose a library activity. Before revealing a tile, ask one person to answer and another to explain or question the reasoning. Use the image as a conversation starter, not proof of understanding.",
+      "product": "One content explanation and one question worth discussing.",
+      "listenFor": "Reasoning about the content, beyond excitement about the hidden image.",
+      "starter": "meme-review.csv",
+      "round": 1
+    },
+    {
+      "id": "coop-story",
+      "name": "Story Wheel",
+      "url": "https://splatworks.org/solutions/storywheel/",
+      "purpose": "Explain the order and importance of events.",
+      "task": "Use the three-event seed-growing example. Choose the events, put them in order, and explain why the sequence makes sense. Try a different order and ask which explanation would need to change.",
+      "product": "A three-event wheel and a spoken explanation of its order.",
+      "listenFor": "A connection between events, not just a list.",
+      "starter": "story-sequence.txt",
+      "round": 1
+    },
+    {
+      "id": "coop-dice",
+      "name": "Dicebreaker Creator",
+      "url": "https://splatworks.org/solutions/dicebreakers/",
+      "purpose": "Give everyone a turn to elaborate and reflect.",
+      "task": "Paste one workshop prompt into each of the six face fields in the creator. Roll a prompt, allow quiet thinking, then invite a response and a follow-up from someone else. Let people pass, write, or speak through a partner.",
+      "product": "One explanation extended by a colleague’s follow-up.",
+      "listenFor": "An example or connection that adds meaning to the first answer.",
+      "starter": "dice-prompts.txt",
+      "round": 2
+    },
+    {
+      "id": "coop-fortune",
+      "name": "Fortune Wheel",
+      "url": "https://splatworks.org/solutions/fortune/",
+      "purpose": "Use phrase recall as a starting point for meaning.",
+      "task": "Paste the workshop phrases into a custom puzzle set. After solving a phrase, explain it with a classroom example. Rotate the person proposing an answer so one confident voice does not take every turn.",
+      "product": "A solved phrase plus a classroom example.",
+      "listenFor": "A useful example; solving letters alone does not show understanding.",
+      "starter": "fortune-phrases.txt",
+      "round": 2
+    }
+  ],
+  "roles": [
+    {
+      "name": "Navigator",
+      "task": "Open the activity and invite others to direct the next action."
+    },
+    {
+      "name": "Explainer",
+      "task": "Say why an answer or choice makes sense."
+    },
+    {
+      "name": "Questioner",
+      "task": "Ask for evidence or an example; make space for another voice."
+    },
+    {
+      "name": "Connector",
+      "task": "Record the group’s idea and connect it to a classroom goal."
+    }
+  ],
+  "planningFields": [
+    "Our learning goal and grade band",
+    "The tool and content prompt we’ll use",
+    "What every learner will explain or contribute",
+    "How we’ll invite different ways to participate",
+    "Evidence we’ll listen or look for",
+    "Our feedback cue and chance to revise"
+  ],
+  "sources": [
+    {
+      "name": "EEF collaborative learning approaches",
+      "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/collaborative-learning-approaches"
+    },
+    {
+      "name": "IES organizing instruction and study practice guide (2007)",
+      "url": "https://ies.ed.gov/ncee/wwc/PracticeGuide/1"
+    }
+  ],
+  "verifiedDate": "2026-10-27",
+  "imageDisclosure": "Workshop photos are AI-generated illustrations, not photographs of actual attendees or a documented event."
+}

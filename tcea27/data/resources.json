@@ -109,7 +109,8 @@
       "feedback"
     ],
     "relatedSessions": [
-      "math-without-price-tag"
+      "math-without-price-tag",
+      "play-explore-explain"
     ],
     "verifiedDate": "2026-10-27"
   },
@@ -261,6 +262,224 @@
     "instructionalStrategies": [],
     "relatedSessions": [
       "project-management"
+    ],
+    "verifiedDate": "2026-10-27"
+  },
+  {
+    "id": "coop-bingo",
+    "name": "Bingo Card Generator and Bingo Caller",
+    "description": "Review and explain a concept before marking it.",
+    "url": "https://splatworks.org/solutions/bingo-card-generator/",
+    "resourceType": "Interactive tool",
+    "gradeBands": [
+      "K–2",
+      "3–5",
+      "6–8",
+      "9–12"
+    ],
+    "subjects": [
+      "Cross-curricular"
+    ],
+    "instructionalUses": [
+      "Review and explain a concept before marking it."
+    ],
+    "instructionalStrategies": [
+      "cooperative",
+      "peer-explanation",
+      "formative"
+    ],
+    "relatedSessions": [
+      "play-explore-explain"
+    ],
+    "verifiedDate": "2026-10-27"
+  },
+  {
+    "id": "coop-meme",
+    "name": "Meme Puzzle",
+    "description": "Use a puzzle reveal to invite explanations.",
+    "url": "https://splatworks.org/solutions/memepuzzle/",
+    "resourceType": "Interactive tool",
+    "gradeBands": [
+      "K–2",
+      "3–5",
+      "6–8",
+      "9–12"
+    ],
+    "subjects": [
+      "Cross-curricular"
+    ],
+    "instructionalUses": [
+      "Use a puzzle reveal to invite explanations."
+    ],
+    "instructionalStrategies": [
+      "cooperative",
+      "peer-explanation",
+      "formative"
+    ],
+    "relatedSessions": [
+      "play-explore-explain"
+    ],
+    "verifiedDate": "2026-10-27"
+  },
+  {
+    "id": "coop-story",
+    "name": "Story Wheel",
+    "description": "Explain the order and importance of events.",
+    "url": "https://splatworks.org/solutions/storywheel/",
+    "resourceType": "Interactive tool",
+    "gradeBands": [
+      "K–2",
+      "3–5",
+      "6–8",
+      "9–12"
+    ],
+    "subjects": [
+      "Cross-curricular"
+    ],
+    "instructionalUses": [
+      "Explain the order and importance of events."
+    ],
+    "instructionalStrategies": [
+      "cooperative",
+      "peer-explanation",
+      "formative"
+    ],
+    "relatedSessions": [
+      "play-explore-explain"
+    ],
+    "verifiedDate": "2026-10-27"
+  },
+  {
+    "id": "coop-dice",
+    "name": "Dicebreaker Creator",
+    "description": "Give everyone a turn to elaborate and reflect.",
+    "url": "https://splatworks.org/solutions/dicebreakers/",
+    "resourceType": "Interactive tool",
+    "gradeBands": [
+      "K–2",
+      "3–5",
+      "6–8",
+      "9–12"
+    ],
+    "subjects": [
+      "Cross-curricular"
+    ],
+    "instructionalUses": [
+      "Give everyone a turn to elaborate and reflect."
+    ],
+    "instructionalStrategies": [
+      "cooperative",
+      "peer-explanation",
+      "formative"
+    ],
+    "relatedSessions": [
+      "play-explore-explain"
+    ],
+    "verifiedDate": "2026-10-27"
+  },
+  {
+    "id": "coop-fortune",
+    "name": "Fortune Wheel",
+    "description": "Use phrase recall as a starting point for meaning.",
+    "url": "https://splatworks.org/solutions/fortune/",
+    "resourceType": "Interactive tool",
+    "gradeBands": [
+      "K–2",
+      "3–5",
+      "6–8",
+      "9–12"
+    ],
+    "subjects": [
+      "Cross-curricular"
+    ],
+    "instructionalUses": [
+      "Use phrase recall as a starting point for meaning."
+    ],
+    "instructionalStrategies": [
+      "cooperative",
+      "peer-explanation",
+      "formative"
+    ],
+    "relatedSessions": [
+      "play-explore-explain"
+    ],
+    "verifiedDate": "2026-10-27"
+  },
+  {
+    "id": "coop-caller",
+    "name": "Bingo Caller",
+    "description": "A reference or launch point for the shared workshop activities.",
+    "url": "https://splatworks.org/solutions/bingo-caller/",
+    "resourceType": "Interactive tool",
+    "gradeBands": [
+      "K–2",
+      "3–5",
+      "6–8",
+      "9–12"
+    ],
+    "subjects": [
+      "Cross-curricular"
+    ],
+    "instructionalUses": [
+      "Plan a purposeful group activity"
+    ],
+    "instructionalStrategies": [
+      "cooperative"
+    ],
+    "relatedSessions": [
+      "play-explore-explain"
+    ],
+    "verifiedDate": "2026-10-27"
+  },
+  {
+    "id": "coop-evidence",
+    "name": "Collaborative learning evidence",
+    "description": "A reference or launch point for the shared workshop activities.",
+    "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/collaborative-learning-approaches",
+    "resourceType": "Research reference",
+    "gradeBands": [
+      "K–2",
+      "3–5",
+      "6–8",
+      "9–12"
+    ],
+    "subjects": [
+      "Cross-curricular"
+    ],
+    "instructionalUses": [
+      "Plan a purposeful group activity"
+    ],
+    "instructionalStrategies": [
+      "cooperative"
+    ],
+    "relatedSessions": [
+      "play-explore-explain"
+    ],
+    "verifiedDate": "2026-10-27"
+  },
+  {
+    "id": "learning-study-guide",
+    "name": "Learning and study practice guide",
+    "description": "A reference or launch point for the shared workshop activities.",
+    "url": "https://ies.ed.gov/ncee/wwc/PracticeGuide/1",
+    "resourceType": "Research reference",
+    "gradeBands": [
+      "K–2",
+      "3–5",
+      "6–8",
+      "9–12"
+    ],
+    "subjects": [
+      "Cross-curricular"
+    ],
+    "instructionalUses": [
+      "Plan a purposeful group activity"
+    ],
+    "instructionalStrategies": [
+      "cooperative"
+    ],
+    "relatedSessions": [
+      "play-explore-explain"
     ],
     "verifiedDate": "2026-10-27"
   }

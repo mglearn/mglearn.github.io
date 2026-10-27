@@ -115,7 +115,8 @@
       "Quiz and Flashcard Studio"
     ],
     "relatedSessions": [
-      "math-without-price-tag"
+      "math-without-price-tag",
+      "play-explore-explain"
     ],
     "limitations": "MetaX calls this Practice testing. A three-question conference activity illustrates the routine; it does not establish a learning gain."
   },
@@ -138,5 +139,105 @@
       "math-without-price-tag"
     ],
     "limitations": "Transfer depends on the prior learning and the distance between tasks. A reflection prompts planning, not proof of transfer."
+  },
+  {
+    "id": "cooperative",
+    "name": "Cooperative learning",
+    "description": "Give the group a shared outcome and make each person’s thinking part of the work.",
+    "effectSize": null,
+    "effectSizeSource": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/collaborative-learning-approaches",
+    "sourceName": "EEF collaborative learning approaches",
+    "influenceName": "Cooperative learning",
+    "category": "Cooperative learning workshop",
+    "statistic": null,
+    "verifiedDate": "2026-10-27",
+    "classroomExample": "Before marking Bingo, everyone chooses a term; a different person explains the group’s reasoning.",
+    "relatedTools": [
+      "Bingo Card Generator and Bingo Caller",
+      "Quiz and Flashcard Studio",
+      "Meme Puzzle",
+      "Story Wheel",
+      "Dicebreaker Creator",
+      "Fortune Wheel"
+    ],
+    "relatedSessions": [
+      "play-explore-explain"
+    ],
+    "limitations": "This workshop demonstrates a short routine, not a complete evaluated program. No numeric effect size or tool-specific learning gain is claimed."
+  },
+  {
+    "id": "peer-explanation",
+    "name": "Peer explanation",
+    "description": "Explain why, listen to a partner, and respond to the reasoning.",
+    "effectSize": null,
+    "effectSizeSource": "https://ies.ed.gov/ncee/wwc/PracticeGuide/1",
+    "sourceName": "IES organizing instruction and study practice guide (2007)",
+    "influenceName": "Peer explanation",
+    "category": "Cooperative learning workshop",
+    "statistic": null,
+    "verifiedDate": "2026-10-27",
+    "classroomExample": "One person proposes a Story Wheel sequence; another explains the connection between events.",
+    "relatedTools": [
+      "Bingo Card Generator and Bingo Caller",
+      "Quiz and Flashcard Studio",
+      "Meme Puzzle",
+      "Story Wheel",
+      "Dicebreaker Creator",
+      "Fortune Wheel"
+    ],
+    "relatedSessions": [
+      "play-explore-explain"
+    ],
+    "limitations": "This workshop demonstrates a short routine, not a complete evaluated program. No numeric effect size or tool-specific learning gain is claimed."
+  },
+  {
+    "id": "elaboration",
+    "name": "Elaboration",
+    "description": "Add an example or connect the new idea to something you understand.",
+    "effectSize": null,
+    "effectSizeSource": "https://ies.ed.gov/ncee/wwc/PracticeGuide/1",
+    "sourceName": "IES organizing instruction and study practice guide (2007)",
+    "influenceName": "Elaboration",
+    "category": "Cooperative learning workshop",
+    "statistic": null,
+    "verifiedDate": "2026-10-27",
+    "classroomExample": "After solving a Fortune Wheel phrase, give a classroom example and explain the match.",
+    "relatedTools": [
+      "Bingo Card Generator and Bingo Caller",
+      "Quiz and Flashcard Studio",
+      "Meme Puzzle",
+      "Story Wheel",
+      "Dicebreaker Creator",
+      "Fortune Wheel"
+    ],
+    "relatedSessions": [
+      "play-explore-explain"
+    ],
+    "limitations": "This workshop demonstrates a short routine, not a complete evaluated program. No numeric effect size or tool-specific learning gain is claimed."
+  },
+  {
+    "id": "formative",
+    "name": "Formative assessment",
+    "description": "Use evidence of learner thinking to choose the next teaching response.",
+    "effectSize": null,
+    "effectSizeSource": "https://ies.ed.gov/ncee/wwc/PracticeGuide/1",
+    "sourceName": "IES organizing instruction and study practice guide (2007)",
+    "influenceName": "Formative assessment",
+    "category": "Cooperative learning workshop",
+    "statistic": null,
+    "verifiedDate": "2026-10-27",
+    "classroomExample": "Listen to a quiz explanation, give a targeted cue, then invite another attempt.",
+    "relatedTools": [
+      "Bingo Card Generator and Bingo Caller",
+      "Quiz and Flashcard Studio",
+      "Meme Puzzle",
+      "Story Wheel",
+      "Dicebreaker Creator",
+      "Fortune Wheel"
+    ],
+    "relatedSessions": [
+      "play-explore-explain"
+    ],
+    "limitations": "This workshop demonstrates a short routine, not a complete evaluated program. No numeric effect size or tool-specific learning gain is claimed."
   }
 ]

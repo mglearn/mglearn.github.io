@@ -1,8 +1,8 @@
 {
   "date": "2026-10-27",
   "title": "High-Impact Teaching Math Tools Without the Price Tag",
-  "browserChecks": 88,
-  "htmlPages": 26,
+  "browserChecks": 118,
+  "htmlPages": 36,
   "axeVersion": "4.10.3",
   "axeRuleTags": [
     "wcag2a",
@@ -15,8 +15,8 @@
     390,
     320
   ],
-  "localReferences": 523,
-  "pdfs": 9,
+  "localReferences": 749,
+  "pdfs": 13,
   "offline": "Extracted file:// packet: navigation, answer reveals, reflection copying and presenter controls pass with networking disabled and zero HTTP requests.",
   "futureSessions": "Draft hidden; published second workshop card shows new title, duration, format and audience in isolated copy.",
   "research": "Seven current MetaX weighted mean effect sizes verified from primary records; TEA Chapter111 examples checked.",
@@ -25,15 +25,16 @@
     "PDFs have selectable text and semantic HTML alternatives; PDF/UA tagging is not claimed.",
     "External tools and references require internet access."
   ],
-  "totalHTMLPages": 27,
+  "totalHTMLPages": 37,
   "protectedDeckSlides": 20,
   "protectedDeckDurationMinutes": 50,
   "protection": "Current presenter guide, deck and offline packet use AES-256-GCM/PBKDF2-SHA256; private source notes removed from public data; prior public history cannot be revoked.",
   "visualDesign": "Original illustrated discovery banner with convention-inspired rust, gold, teal and paper treatment.",
-  "publishedSessions": 2,
+  "publishedSessions": 3,
   "approvedHeroUnchanged": true,
   "carousel": "Two published workshop images; manual arrows, labeled dots, keyboard and swipe; no autoplay.",
   "projectManagement": "Beyond the Rollout: presenter-led shared district case, no prework/project, brief decision discussions, ADKAR/Kotter/KPI/milestone/risk diagrams, photorealistic problem and scope images, warm direct language. Slides 6–20 use photorealistic case images and concrete action/evidence explanations.",
   "mathInfographics": "Math-specific visual pathways, graph comparisons, number-line arrows, retrieval cycle, and ACE;20slides/50min.",
-  "rememberedAccess": "Optional 30-day opaque cookie+non-exportable IndexedDB key; no plaintext password/notes; restart, cross-workshop, expiry, removal tested."
+  "rememberedAccess": "Optional 30-day opaque cookie+non-exportable IndexedDB key; no plaintext password/notes; restart, cross-workshop, expiry, removal tested.",
+  "cooperativeLearning": "Six requested SplatWorks tools; two8-minute exploration rounds; shared task and each person contribution;20slides50minutes, image/infographic every slide; public Bingo and adaptation memory-only;4PDFs and six starter files."
 }

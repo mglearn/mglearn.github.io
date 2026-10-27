@@ -46,3 +46,5 @@ Math teaching slides also use meaningful infographic comparisons, pathways, numb
 Pair relevant photorealistic scenes with readable, case-specific explanations when requested. Define short labels such as scope, handoff, and KPI by showing who acts, what they do, and what evidence they check. Never leave the audience to infer the meaning from an icon or label alone. Presenter access now supports optional thirty-day remembered keys; keep the cookie opaque and provide Forget access and lock.
 
 Keep access-management controls off projected slides. The Forget access and lock action belongs inside keyboard help or the separate presenter view, not in a persistent overlay.
+
+Play, Explore, Explain uses small groups of three or four, a shared device when needed, two eight-minute exploration rounds, and whole-group sharing within its fifty minutes. Keep all six requested tool tasks and the distinction between independent cards and a live response room. Preserve the varied visual forms and a purposeful image or infographic on every slide.

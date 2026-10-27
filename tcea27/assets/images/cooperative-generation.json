@@ -1,0 +1,14 @@
+{
+  "mode": "built-in image_gen",
+  "illustrative": true,
+  "prompts": [
+    [
+      "cooperative-learning-photo",
+      "Photorealistic editorial landscape 16:9 photograph of four adult K-12 educators at a professional learning workshop, a diverse small group of colleagues around a table with one laptop, a tablet, simple bingo cards and a die. They are engaged in a supportive conversation, one person explaining and another listening thoughtfully, not all staring silently at screens. Warm natural daylight, candid realistic expressions and hands, restrained navy/teal/gold accents, professional everyday conference room. No readable words, no logos, no real identifiable people, no children. No text overlays. Compose faces and shared activity on the right two-thirds with a quieter left third for a slide title overlay. Original illustrative scene for 'Play, Explore, Explain: Cooperative Learning in Action'."
+    ],
+    [
+      "cooperative-explanation-photo",
+      "Photorealistic editorial landscape 16:9 close scene of adult educators' hands and shoulders collaborating on a small tabletop activity: one person pointing to three simple blank image-sequence cards, a second sketching an explanation, another using a tablet with generic colorful learning tiles. Show explanation and listening through gestures, a shared task rather than isolated devices. Professional learning classroom, warm daylight, realistic unbranded materials, navy and teal accents. No readable text, no personal data, no logos, no children, no identifiable real people, no text overlays. Subjects centrally framed, useful for a photo panel beside a teaching infographic. Fictional illustrative workshop scene."
+    ]
+  ]
+}
