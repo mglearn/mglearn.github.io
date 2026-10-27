@@ -15,7 +15,7 @@
     390,
     320
   ],
-  "localReferences": 368,
+  "localReferences": 340,
   "pdfs": 5,
   "offline": "Extracted file:// packet: navigation, answer reveals, reflection copying and presenter controls pass with networking disabled and zero HTTP requests.",
   "futureSessions": "Draft hidden; published second workshop card shows new title, duration, format and audience in isolated copy.",
@@ -24,5 +24,10 @@
     "Automated checks are not a full WCAG conformance certification.",
     "PDFs have selectable text and semantic HTML alternatives; PDF/UA tagging is not claimed.",
     "External tools and references require internet access."
-  ]
+  ],
+  "totalHTMLPages": 18,
+  "protectedDeckSlides": 18,
+  "protectedDeckDurationMinutes": 50,
+  "protection": "Current presenter guide, deck and offline packet use AES-256-GCM/PBKDF2-SHA256; private source notes removed from public data; prior public history cannot be revoked.",
+  "visualDesign": "Original illustrated discovery banner with convention-inspired rust, gold, teal and paper treatment."
 }

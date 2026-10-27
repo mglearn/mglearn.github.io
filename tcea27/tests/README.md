@@ -16,3 +16,5 @@ The suite covers all 17 pages, axe WCAG 2 A/AA and 2.1/2.2 AA rules, 390px and 3
 Additional release checks: extract the ZIP and open `index.html` under `file://` with networking disabled; use all core controls; inspect printed activity/presenter PDF text; test a draft and published second workshop in an isolated copy; review desktop/mobile screenshots and primary research/TEKS references.
 
 Presenter checks require `TCEA_PASSWORD_FILE` pointing to the private password file outside the repository. Run `tests/presenter.cjs` with the same NODE_PATH setup to check encryption, wrong-password behavior, reload locking, slide geometry and timing, two-window synchronization, speaker-notes resizing, PDF output, and mobile reflow. Do not publish decrypted screenshots or slide PDFs with speaker notes.
+
+Set `TCEA_DECK_URL=https://mguhlin.github.io/webdecks/tcea27/math-tools.html` when running `presenter.cjs` to exercise the mirrored library deck with the same gate, notes, presenter-window and print checks.
