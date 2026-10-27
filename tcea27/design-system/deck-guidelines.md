@@ -44,3 +44,5 @@ Speak to educators as colleagues. Use “you” and “we,” natural contractio
 Math teaching slides also use meaningful infographic comparisons, pathways, number-line arrows, visual evidence, and takeaway ribbons; keep the graph values and exact fifty-minute timing intact.
 
 Pair relevant photorealistic scenes with readable, case-specific explanations when requested. Define short labels such as scope, handoff, and KPI by showing who acts, what they do, and what evidence they check. Never leave the audience to infer the meaning from an icon or label alone. Presenter access now supports optional thirty-day remembered keys; keep the cookie opaque and provide Forget access and lock.
+
+Keep access-management controls off projected slides. The Forget access and lock action belongs inside keyboard help or the separate presenter view, not in a persistent overlay.

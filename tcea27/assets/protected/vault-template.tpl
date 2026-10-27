@@ -10,8 +10,13 @@ async function forget(){setCookie('',0);try{await access('clear')}catch{}}
 async function save(material){if(location.protocol==='file:')return;const id=crypto.randomUUID();await access('put',{token:id,record:{material,expires:Date.now()+days}});setCookie(id,days/1000);}
 async function decrypt(material){const key=await crypto.subtle.deriveKey({name:'PBKDF2',salt:bytes(payload.salt),iterations:payload.iterations,hash:'SHA-256'},material,{name:'AES-GCM',length:256},false,['decrypt']);return new TextDecoder().decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:bytes(payload.iv),additionalData:new TextEncoder().encode(payload.context)},key,bytes(payload.ciphertext)));}
 function openDocument(html){document.open();document.write(html);document.close();
- const lock=async()=>{await forget();location.reload()};let locks=[...document.querySelectorAll('.deck-lock,button')].filter(b=>b.classList.contains('deck-lock')||/lock guide/i.test(b.textContent));
- for(const b of locks){b.textContent='Forget access and lock';b.onclick=lock;}
+ const lock=async()=>{await forget();location.reload()};
+ // Access controls belong in presenter UI, never over projected slides.
+ for(const b of document.querySelectorAll('.deck-lock'))b.remove();
+ if(document.querySelector('.deck')){
+  const host=document.getElementById('pvClose')?.parentElement||document.querySelector('#help .help-card');
+  if(host){const b=document.createElement('button');b.id='presenterForgetAccess';b.type='button';b.textContent='Forget access and lock';b.className=document.getElementById('pvClose')?'pv-btn':'no-print';b.style.cssText='font:inherit;padding:8px 12px;margin-top:10px;cursor:pointer';b.onclick=event=>{event.stopPropagation();lock()};host.appendChild(b);}
+ }else for(const b of document.querySelectorAll('button'))if(/lock guide/i.test(b.textContent)){b.textContent='Forget access and lock';b.onclick=lock;}
  window.addEventListener('message',event=>{try{if(location.protocol==='file:')return;if(event.origin!==location.origin||event.data?.type!=='tcea-presenter-request'||event.data.path!==location.pathname||event.source?.opener!==window||event.source.name!=='webdeck-presenter')return;event.source.postMessage({type:'tcea-presenter-document',path:location.pathname,html},location.origin);}catch{}});
 }
 document.getElementById('vaultShow').addEventListener('change',e=>field.type=e.target.checked?'text':'password');
