@@ -1,0 +1,53 @@
+{
+  "name": "TCEA27 Learning Adventure",
+  "version": "1.0.0",
+  "scope": "All MG Learn TCEA 2027 sessions and workshop resource pages",
+  "canonicalStylesheet": "assets/css/styles.css",
+  "printStylesheet": "assets/css/print.css",
+  "colors": {
+    "navy": "#0A3476",
+    "deepNavy": "#082759",
+    "teal": "#28657A",
+    "rust": "#AE4E55",
+    "gold": "#FCB040",
+    "warmPaper": "#F8F3E5",
+    "palePaper": "#F5F0E2",
+    "white": "#FFFFFF",
+    "bodyText": "#172033",
+    "mutedText": "#53627A",
+    "secondaryCardBand": "#76718E",
+    "tertiaryCardBand": "#A44738"
+  },
+  "typography": {
+    "heroHeading": "Georgia, Times New Roman, serif",
+    "bodyAndUI": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif",
+    "bodyPixels": 17,
+    "minimumMobileBodyPixels": 16,
+    "headings": "Deep navy, strong hierarchy, balanced wrapping",
+    "eyebrows": "Small tracked uppercase labels; pale cream on teal backgrounds"
+  },
+  "signatureElements": [
+    "Original full-width illustrated learning-adventure banner",
+    "Large white serif headline on a broad rounded rust panel",
+    "Teal event strip and warm gold action ribbon",
+    "Warm subtly dotted paper background",
+    "White rounded session cards with gold borders and soft offset shadows",
+    "Teal, lavender, and rust resource-card label bands",
+    "Generous spacing, clear navy action buttons, restrained decoration"
+  ],
+  "assets": {
+    "hero": "assets/images/learning-adventure.webp",
+    "heroPrompt": "assets/images/learning-adventure-generation.json",
+    "desktopReference": "design-system/reference-desktop.webp",
+    "mobileReference": "design-system/reference-mobile.webp"
+  },
+  "components": [".event-strip", ".site-header", ".event-hero", ".hero-copy", ".path-strip", ".session-card", ".page-heading", ".session-nav", ".card", ".activity", ".callout", ".button", ".site-footer"],
+  "responsive": {
+    "containerMaxPixels": 1180,
+    "desktopHeroMinHeightPixels": 550,
+    "mobileHeroArtLeadInPixels": 160,
+    "collapseRules": "Use the canonical stylesheet; avoid per-session copies or fixed-width content",
+    "reflowCheckWidthsPixels": [390, 320]
+  },
+  "identity": "Presenter resources by Miguel Guhlin / MG Learn; official convention information links to TCEA. Original artwork; no copied convention logo or illustration."
+}
