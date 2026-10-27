@@ -1,0 +1,22 @@
+{
+  "mode": "built-in image_gen",
+  "illustrative": true,
+  "prompts": [
+    {
+      "name": "stakeholders",
+      "prompt": "Photorealistic landscape 16:9 educational editorial photograph. A principal, a teacher, facilities manager, and IT lead sitting around a modest school office table, listening to the teacher point to a simple unlabelled classroom floor plan and a laptop; a collaborative listening conversation, diverse adult colleagues, candid professional school district documentary photography. Soft daylight, high-quality natural skin textures, muted navy and teal accents, relatable everyday public school setting, fully clothed adults only, no students, no text overlays, no readable names or data, no brands, no watermark. Illustrative fictional district case, not a real event. Compose with subjects centrally framed and contextual classroom or office detail, crop-safe for a vertical photo panel in a teaching slide."
+    },
+    {
+      "name": "handoff",
+      "prompt": "Photorealistic landscape 16:9 educational editorial photograph. A facilities worker and IT technician checking a classroom wall outlet and wireless access point together in a portable classroom, with a simple checklist on a clipboard and a laptop, coordinated handoff verification, normal safe realistic equipment, candid school operations photography. Soft daylight, high-quality natural skin textures, muted navy and teal accents, relatable everyday public school setting, fully clothed adults only, no students, no text overlays, no readable names or data, no brands, no watermark. Illustrative fictional district case, not a real event. Compose with subjects centrally framed and contextual classroom or office detail, crop-safe for a vertical photo panel in a teaching slide."
+    },
+    {
+      "name": "communication",
+      "prompt": "Photorealistic landscape 16:9 educational editorial photograph. A school principal and a district IT lead having a focused supportive conversation at a desk with a laptop and a simple paper progress checklist, principal looking engaged and relieved to have a clear plan, candid documentary photography. Soft daylight, high-quality natural skin textures, muted navy and teal accents, relatable everyday public school setting, fully clothed adults only, no students, no text overlays, no readable names or data, no brands, no watermark. Illustrative fictional district case, not a real event. Compose with subjects centrally framed and contextual classroom or office detail, crop-safe for a vertical photo panel in a teaching slide."
+    },
+    {
+      "name": "adoption",
+      "prompt": "Photorealistic landscape 16:9 educational editorial photograph. An adult teacher practicing a classroom teaching workflow on a digital classroom display while an IT coach stands beside her and listens, hands-on supportive practice in a modest portable classroom, teacher in control of the task, candid realistic educational technology photography. Soft daylight, high-quality natural skin textures, muted navy and teal accents, relatable everyday public school setting, fully clothed adults only, no students, no text overlays, no readable names or data, no brands, no watermark. Illustrative fictional district case, not a real event. Compose with subjects centrally framed and contextual classroom or office detail, crop-safe for a vertical photo panel in a teaching slide."
+    }
+  ]
+}

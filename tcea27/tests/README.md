@@ -20,3 +20,5 @@ Presenter checks require `TCEA_PASSWORD_FILE` pointing to the private password f
 Set `TCEA_DECK_URL=https://mguhlin.github.io/webdecks/tcea27/math-tools.html` when running `presenter.cjs` to exercise the mirrored library deck with the same gate, notes, presenter-window and print checks.
 
 The current release has two workshops, twenty slides and fifty minutes per protected deck, nine PDF/HTML resources, and a manual image carousel. Set `TCEA_SESSION_SLUG=project-management` for that deck’s presenter checks. `sessions.cjs` verifies carousel controls, session-specific math content, Project Management case interactions, actual plan clipboard/print/clear/privacy, and filtering. General browser checks cover 26 pages; the static verifier checks all 27 HTML pages and the unchanged approved hero.
+
+Run `tests/remember-access.cjs` with TCEA_PASSWORD_FILE for persistent-browser access tests. Standard presenter tests uncheck Remember access to verify temporary reload locking. The persistence suite checks thirty-day cookies, browser restart, cross-workshop unlocking, non-exportable CryptoKeys, expiration, and forgetting.

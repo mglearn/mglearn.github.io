@@ -6,7 +6,7 @@
   "conferenceDurationMinutes": 50,
   "case": {
     "title": "The portable classroom is still offline",
-    "facts": "A fictional portable classroom remains offline after work stalled between facilities and IT. The principal receives assurances but no dependable completion date. Use only fictional or generalized details."
+    "facts": "Ms. Rivera has a lesson ready, but her portable classroom still has no dependable internet. Facilities and IT are waiting on each other, and her principal needs a clear answer. We’ll work through this fictional situation together."
   },
   "agenda": [
     {
@@ -21,28 +21,28 @@
       "title": "Model scope, stakeholders, and milestones",
       "start": 5,
       "end": 15,
-      "prompt": "Follow the presenter’s charter and milestone model. Which boundary or stakeholder would you clarify?"
+      "prompt": "I’ll show you the charter and milestones. Which boundary or stakeholder would you ask about?"
     },
     {
       "id": "pm-dependencies",
       "title": "Teach dependencies, risks, and communication",
       "start": 15,
       "end": 27,
-      "prompt": "Examine the worked handoff, risk response, and update. Discuss who should act next and why."
+      "prompt": "Let’s follow the handoff, risk response, and update. Who should act next, and why?"
     },
     {
       "id": "pm-adoption",
       "title": "Lead change and measure what works",
       "start": 27,
       "end": 40,
-      "prompt": "Compare delivery and adoption KPIs. Discuss a barrier to use and choose a useful support response."
+      "prompt": "What tells us it’s installed? What tells us people can use it? Let’s compare the KPIs and discuss a support response."
     },
     {
       "id": "pm-plan",
       "title": "Discuss the next decision",
       "start": 40,
       "end": 47,
-      "prompt": "Use the shared case and the presenter’s completed framework. Discuss one next action, an accountable owner, and the evidence to check."
+      "prompt": "Here’s our completed framework. What would you do next, who should act, and what evidence would you check?"
     },
     {
       "id": "pm-commit",
@@ -52,7 +52,7 @@
       "prompt": "Check the success criteria, review the model decision, and locate the reusable templates."
     }
   ],
-  "participation": "Follow presenter models, think briefly, discuss a decision with a neighbor, and compare with the worked example. No project, preparation, or device required.",
+  "participation": "I’ll explain each part of the framework and show you a worked example. You’ll have short chances to compare decisions with a neighbor. No project, preparation, or device required.",
   "sourceNote": "Selected ideas from the supplied four-hour module are taught through a shared district case within fifty minutes. Templates are takeaways, not required prework or a full project assignment.",
   "planningFields": [
     "Shared case: problem and intended outcome",

@@ -1,0 +1,14 @@
+{
+  "mode": "built-in image_gen",
+  "illustrative": true,
+  "prompts": [
+    [
+      "problem",
+      "Photorealistic documentary-style educational photograph, landscape 16:9. A modest US K-12 portable classroom interior during a school day, viewed over the shoulder of an adult teacher seated at a classroom laptop, empty student desks in soft focus. The teacher is unable to connect: laptop displays a simple generic disconnected network symbol, no readable text. A wall-mounted wireless access point and an inactive classroom display provide context. Thoughtful concerned posture, normal well-maintained classroom, no disaster scene. Natural daylight, realistic professional photography, restrained navy/teal visual accents. No students, no identifiable real people, no branding, no text overlays, no watermarks. This is an illustrative fictional school infrastructure case. Compose for a slide card with the teacher and laptop central; clear contextual detail."
+    ],
+    [
+      "scope",
+      "Photorealistic professional documentary photograph, landscape 16:9. Inside a modest US K-12 portable classroom, one adult district IT technician and an adult teacher verifying restored classroom internet service together. Technician checks a generic laptop beside a normal wall-mounted wireless access point; teacher tests a simple generic teaching workflow on the classroom display, without readable text or brand interfaces. Show a precise bounded task: verify usable connectivity for THIS classroom, not construction of a network data center. Realistic standard equipment and cabling, no impossible technology, no exposed hazards, no students, no identifiable real people, no logos, no watermarks, no text overlays. Soft natural daylight, clear instructional composition, muted navy and teal accents, high-quality editorial realism. Subjects central, crop-safe for a slide card. Illustrative fictional scene."
+    ]
+  ]
+}

@@ -15,7 +15,7 @@
     390,
     320
   ],
-  "localReferences": 521,
+  "localReferences": 523,
   "pdfs": 9,
   "offline": "Extracted file:// packet: navigation, answer reveals, reflection copying and presenter controls pass with networking disabled and zero HTTP requests.",
   "futureSessions": "Draft hidden; published second workshop card shows new title, duration, format and audience in isolated copy.",
@@ -33,5 +33,7 @@
   "publishedSessions": 2,
   "approvedHeroUnchanged": true,
   "carousel": "Two published workshop images; manual arrows, labeled dots, keyboard and swipe; no autoplay.",
-  "projectManagement": "Four-hour source adapted to a 50-minute case/discussion session; no certification or completed-video claim."
+  "projectManagement": "Beyond the Rollout: presenter-led shared district case, no prework/project, brief decision discussions, ADKAR/Kotter/KPI/milestone/risk diagrams, photorealistic problem and scope images, warm direct language. Slides 6–20 use photorealistic case images and concrete action/evidence explanations.",
+  "mathInfographics": "Math-specific visual pathways, graph comparisons, number-line arrows, retrieval cycle, and ACE;20slides/50min.",
+  "rememberedAccess": "Optional 30-day opaque cookie+non-exportable IndexedDB key; no plaintext password/notes; restart, cross-workshop, expiry, removal tested."
 }
