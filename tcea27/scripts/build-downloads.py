@@ -49,7 +49,7 @@ for d in DATA['downloads']:
 (D/'campus-temperature.csv').write_text('Time,Temperature_C\n09:00,18\n12:00,24\n15:00,27\n')
 # Deterministic archive: includes the complete static companion, HTML alternatives,
 # data, PDFs and local scripts; excludes development tools and the archive itself.
-archive=R/'downloads/tcea27-offline-packet.zip'
+archive=R/'downloads/tcea27-offline-packet-protected.zip'
 with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:
  for p in sorted(R.rglob('*')):
   rel=p.relative_to(R)
@@ -57,6 +57,6 @@ with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=
   info=zipfile.ZipInfo('tcea27/'+str(rel),(2026,10,27,0,0,0));info.compress_type=zipfile.ZIP_DEFLATED;info.external_attr=0o644<<16;data=p.read_bytes()
   if p.suffix=='.html':
    import re
-   data=re.sub(rb'href="[^"]*tcea27-offline-packet\.zip"',b'href="https://mglearn.github.io/tcea27/downloads/tcea27-offline-packet.zip"',data)
+   data=re.sub(rb'href="[^"]*tcea27-offline-packet-protected\.zip"',b'href="https://mglearn.github.io/tcea27/downloads/tcea27-offline-packet-protected.zip"',data)
   z.writestr(info,data)
 print('Built 5 selectable-text PDFs with HTML alternatives and offline ZIP:',archive.stat().st_size,'bytes')

@@ -2,6 +2,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
+import re,base64
 import json,zipfile,hashlib
 R=Path(__file__).resolve().parents[1]
 class Page(HTMLParser):
@@ -27,6 +28,14 @@ for p,doc in files.items():
   if u.fragment and t in files and unquote(u.fragment) not in files[t].ids:errors.append(f'{p}: missing fragment {ref}')
   links+=1
 s=json.loads((R/'data/sessions.json').read_text());a=json.loads((R/'data/activities.json').read_text())
+assert all('presenter' not in item and 'transition' not in item for item in a),'Private facilitation fields must not be published'
+for name in ['presenter-guide.html','presenter-webdeck.html']:
+ text=(R/'sessions/math-without-price-tag'/name).read_text()
+ payload=json.loads(re.search(r'<script id="vaultPayload" type="application/json">(.*?)</script>',text).group(1))
+ assert payload['algorithm']=='AES-256-GCM' and payload['iterations']>=600000
+ assert len(base64.b64decode(payload['salt']))==16 and len(base64.b64decode(payload['iv']))==12
+ assert 'data-presenter-step' not in text and 'class="notes"' not in text
+
 assert sum(x['end']-x['start'] for x in a)==50
 assert [x['start'] for x in a]==[0,5,15,35,45]
 assert s[0]['title']=='High-Impact Teaching Math Tools Without the Price Tag'
@@ -41,11 +50,14 @@ for p in (R/'downloads').rglob('*.pdf'):
  assert len(text)>600,(p,'missing selectable text')
  assert 'MG Learn' in text and '2027' in text
  print(p.name,len(reader.pages),'pages; selectable text verified')
-with zipfile.ZipFile(R/'downloads/tcea27-offline-packet.zip') as z:
+with zipfile.ZipFile(R/'downloads/tcea27-offline-packet-protected.zip') as z:
  assert z.testzip() is None
  assert 'tcea27/index.html' in z.namelist()
  assert 'tcea27/sessions/math-without-price-tag/presenter-guide.html' in z.namelist()
  assert len([n for n in z.namelist() if n.endswith('.pdf')])==5
+ for name in ['presenter-guide.html','presenter-webdeck.html']:
+  key='tcea27/sessions/math-without-price-tag/'+name
+  assert z.read(key)==(R/'sessions/math-without-price-tag'/name).read_bytes(),'Offline presenter resource out of date'
  assert not any('..' in Path(n).parts for n in z.namelist())
 if errors:raise SystemExit('\n'.join(errors))
 print(f'Checked {len(files)} HTML pages, {links} local references, research provenance, 50-minute agenda, 5 PDFs and offline packet.')
