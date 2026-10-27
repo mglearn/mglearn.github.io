@@ -1,0 +1,67 @@
+{
+  "sourceTitle": "TCEA Module 8 — Project Management and Change Leadership",
+  "sourceType": "User-supplied curriculum ZIP; conference adaptation",
+  "sourceArchive": "TCEA_Module8_Project_Management_JSON_Assets.zip",
+  "originalDurationHours": 4,
+  "conferenceDurationMinutes": 50,
+  "case": {
+    "title": "The portable classroom is still offline",
+    "facts": "A fictional portable classroom remains offline after work stalled between facilities and IT. The principal receives assurances but no dependable completion date. Use only fictional or generalized details."
+  },
+  "agenda": [
+    {
+      "id": "pm-notice",
+      "title": "What would you do next?",
+      "start": 0,
+      "end": 5,
+      "prompt": "A portable classroom is still offline. Facilities and IT each say they are waiting on the other. The principal has no dependable date. What should the project lead do next?"
+    },
+    {
+      "id": "pm-charter",
+      "title": "Define the work before expanding it",
+      "start": 5,
+      "end": 13,
+      "prompt": "Write a one-sentence problem, one in-scope outcome, and one explicit exclusion."
+    },
+    {
+      "id": "pm-dependencies",
+      "title": "Make ownership and dependencies visible",
+      "start": 13,
+      "end": 25,
+      "prompt": "Who must act before the next milestone can happen? Name the owner, a dependency, and one early warning."
+    },
+    {
+      "id": "pm-adoption",
+      "title": "Communicate progress and check the change",
+      "start": 25,
+      "end": 37,
+      "prompt": "What update restores accountability? What evidence shows that the classroom can actually use the service?"
+    },
+    {
+      "id": "pm-plan",
+      "title": "Build a small plan and test it with a neighbor",
+      "start": 37,
+      "end": 47,
+      "prompt": "Draft the next decision, owner, dependency, update, and success evidence. Ask a neighbor to find one gap, then revise."
+    },
+    {
+      "id": "pm-commit",
+      "title": "Choose the next conversation",
+      "start": 47,
+      "end": 50,
+      "prompt": "Who will you talk with, what decision will you request, and what evidence will you bring?"
+    }
+  ],
+  "participation": "Think quietly, compare with a neighbor, check a model, and revise. Remain seated; a device is optional.",
+  "sourceNote": "This 50-minute session practices selected planning decisions. It is not completion of the original four-hour module or a project-management certification.",
+  "planningFields": [
+    "Problem and intended outcome",
+    "In scope and out of scope",
+    "Sponsor or decision authority",
+    "Next milestone and accountable owner",
+    "Dependency and early warning",
+    "Communication audience, message, and cadence",
+    "Delivery evidence and adoption evidence",
+    "Next conversation and review date"
+  ]
+}

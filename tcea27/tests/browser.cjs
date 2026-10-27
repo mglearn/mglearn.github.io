@@ -3,7 +3,7 @@ const base=(process.env.TCEA_BASE_URL||'http://127.0.0.1:4227/tcea27/').replace(
 (async()=>{
  await fs.mkdir(out,{recursive:true});const b=await chromium.launch();let checks=0;const findings=[],errors=[];
  const context=await b.newContext({permissions:['clipboard-read','clipboard-write'],viewport:{width:1440,height:1000}});const p=await context.newPage();p.on('pageerror',e=>errors.push(e.message));
- const pages=['index.html','about.html','resources.html','strategies.html','downloads.html','404.html',...['index.html','participate.html','activities.html','strategies.html','lesson-resources.html','presenter-guide.html'].map(f=>session+f),...['session-handout','graph-analysis','strategy-reference','lesson-planning','ace'].map(f=>'downloads/math-without-price-tag/'+f+'.html')];
+ const pages=['index.html','about.html','resources.html','strategies.html','downloads.html','404.html',...['index.html','participate.html','activities.html','strategies.html','lesson-resources.html','presenter-guide.html'].map(f=>session+f),...['index.html','participate.html','toolkit.html','presenter-guide.html','presenter-webdeck.html'].map(f=>'sessions/project-management/'+f),...['session-handout','project-charter','stakeholder-risk-map','communication-scorecard'].map(f=>'downloads/project-management/'+f+'.html'),...['session-handout','graph-analysis','strategy-reference','lesson-planning','ace'].map(f=>'downloads/math-without-price-tag/'+f+'.html')];
  for(const page of pages){
   await p.goto(base+page);await p.addScriptTag({content:axe.source});
   const result=await p.evaluate(()=>axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa','wcag22aa']}}));

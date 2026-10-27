@@ -68,6 +68,76 @@
       "lesson-planning",
       "ace"
     ],
-    "status": "published"
+    "status": "published",
+    "image": "assets/images/math-tools-photo.webp",
+    "imageAlt": "Illustrative classroom table with a graph, number line, and hands working with math manipulatives",
+    "successCriteria": [
+      "Explain how a bar-chart baseline changes a visual comparison using values and units.",
+      "Choose a representation that fits a mathematical question and explain the match.",
+      "Outline a short lesson with a learning goal, strategy, tool, and observable evidence of understanding."
+    ]
+  },
+  {
+    "id": "project-management",
+    "slug": "project-management",
+    "title": "Project Management and Change Leadership",
+    "shortDescription": "Turn a stalled initiative into a clear plan with shared ownership, useful updates, and evidence that the change is working.",
+    "fullDescription": "A technical installation is only part of a successful school project. In this focused conference adaptation of the supplied project-management module, use one fictional district case to define scope, identify stakeholders and dependencies, plan communication, and distinguish delivery from sustained use. Experience brief models, individual thinking, neighbor discussions, and a small planning task you can adapt to a real initiative.",
+    "durationMinutes": 50,
+    "format": "Presenter-led models with structured partner discussion",
+    "audience": [
+      "Technology and IT leaders",
+      "Campus and district leaders",
+      "Project leads and instructional coaches"
+    ],
+    "gradeBands": [
+      "K–12 leaders"
+    ],
+    "presenters": [
+      {
+        "name": "Miguel Guhlin",
+        "url": "https://mguhlin.org/"
+      }
+    ],
+    "learningObjectives": [
+      "Define a project’s purpose, scope, owner, and acceptance evidence.",
+      "Identify stakeholders, dependencies, risks, and the next decision needed.",
+      "Plan an update and measures that show adoption as well as delivery.",
+      "Draft and revise a small next-step plan after a neighbor’s feedback."
+    ],
+    "successCriteria": [
+      "State an in-scope outcome and an explicit exclusion for the case.",
+      "Identify a dependency, an accountable owner, and an escalation trigger.",
+      "Propose a usable update and one delivery measure plus one adoption measure.",
+      "Revise a next-step plan using evidence and a colleague’s question."
+    ],
+    "featuredTools": [
+      "pm-planner",
+      "pm-toolkit"
+    ],
+    "featuredStrategies": [],
+    "activities": [
+      "pm-notice",
+      "pm-charter",
+      "pm-dependencies",
+      "pm-adoption",
+      "pm-plan",
+      "pm-commit"
+    ],
+    "resources": [
+      "pm-planner",
+      "pm-toolkit",
+      "adkar",
+      "kotter"
+    ],
+    "downloads": [
+      "pm-handout",
+      "pm-charter",
+      "pm-risk",
+      "pm-scorecard"
+    ],
+    "status": "published",
+    "image": "assets/images/project-management-photo.webp",
+    "imageAlt": "Illustrative school leadership planning table with timeline notes and collaborative hands"
   }
 ]

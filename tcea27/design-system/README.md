@@ -24,7 +24,7 @@ Use the `.container` and `.section` spacing, `.grid` / `.split` layout, `.card`,
 2. Run `python3 tcea27/scripts/create-session.py <session-id>` from the repository root. It creates the draft landing page using this theme and the shared page shell, without overwriting an existing session. It links only to completed shared resources.
 3. Build that workshop's real activities and downloads using shared classes. Add a session-specific contents menu only when those pages exist. A presenter guide or speaker notes must be encrypted before publication.
 4. Run `python3 tcea27/scripts/build-downloads.py`, the static verifier, and appropriate browser checks. Compare desktop and phone views with the saved references. Check keyboard focus, contrast, 390px/320px reflow, print output, and link targets.
-5. Mark the session published when complete and rebuild. Its home card is generated from the data record without a home-page redesign.
+5. Mark the session published when complete and rebuild. Its image-carousel entry is generated from the data record without a home-page redesign.
 
 The initial math workshop keeps its stable path `sessions/math-without-price-tag/`; the displayed title is **High-Impact Teaching Math Tools Without the Price Tag**. Future workshops may have different subjects and formats while retaining this shared visual identity.
 
@@ -33,3 +33,5 @@ The initial math workshop keeps its stable path `sessions/math-without-price-tag
 The webdeck follows the canonical [Web Deck v5](https://mguhlin.github.io/webdecks/) system, with a navy/gold/paper project skin that complements this site. Do not change the shared deck framework to restyle a session; use deck-local tokens. Keep its 1280×720 canvas, two-monitor presenter view, notes resizing, reflow, keyboard navigation, and audience-slide PDF export.
 
 Private authoring inputs and passwords stay outside public repositories. Publish only sealed presenter HTML using `scripts/seal-presenter.cjs`. Do not put private notes or passwords in JSON, source, screenshots, or an unencrypted offline download. Earlier public revisions are a separate historical limitation; the current theme and protected resource files are the maintained release.
+
+The current header/hero/ribbon is explicitly approved and locked; see [the approved hero](reference-approved-hero.webp). New workshops extend the image carousel below it. Keep workshop-specific follow-up content within that workshop. The [deck guidelines](deck-guidelines.md) and shared deck skin record the facilitator-second, overview, success-criteria, photorealistic-cover, infographic, and timed-discussion requirements.

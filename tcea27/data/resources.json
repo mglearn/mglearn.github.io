@@ -171,5 +171,97 @@
       "math-without-price-tag"
     ],
     "verifiedDate": "2026-10-27"
+  },
+  {
+    "id": "pm-planner",
+    "name": "Project next-step planner",
+    "description": "Draft a small fictional or generalized project plan, copy it, and revise it after a colleague’s questions.",
+    "url": "sessions/project-management/participate.html#pm-plan",
+    "resourceType": "Planning tool",
+    "gradeBands": [
+      "K–12 leaders"
+    ],
+    "subjects": [
+      "Project Management",
+      "Leadership"
+    ],
+    "instructionalUses": [
+      "Clarify project decisions",
+      "Connect delivery to adoption"
+    ],
+    "instructionalStrategies": [],
+    "relatedSessions": [
+      "project-management"
+    ],
+    "verifiedDate": "2026-10-27"
+  },
+  {
+    "id": "pm-toolkit",
+    "name": "Project management toolkit",
+    "description": "Read the conference case and get charter, risk, communication, and scorecard templates.",
+    "url": "sessions/project-management/toolkit.html",
+    "resourceType": "Planning templates",
+    "gradeBands": [
+      "K–12 leaders"
+    ],
+    "subjects": [
+      "Project Management",
+      "Leadership"
+    ],
+    "instructionalUses": [
+      "Clarify project decisions",
+      "Connect delivery to adoption"
+    ],
+    "instructionalStrategies": [],
+    "relatedSessions": [
+      "project-management"
+    ],
+    "verifiedDate": "2026-10-27"
+  },
+  {
+    "id": "adkar",
+    "name": "Prosci ADKAR model",
+    "description": "Use five change outcomes to consider why an individual may need support during an implementation.",
+    "url": "https://www.prosci.com/methodology/adkar",
+    "resourceType": "Framework",
+    "gradeBands": [
+      "K–12 leaders"
+    ],
+    "subjects": [
+      "Project Management",
+      "Leadership"
+    ],
+    "instructionalUses": [
+      "Clarify project decisions",
+      "Connect delivery to adoption"
+    ],
+    "instructionalStrategies": [],
+    "relatedSessions": [
+      "project-management"
+    ],
+    "verifiedDate": "2026-10-27"
+  },
+  {
+    "id": "kotter",
+    "name": "Kotter change framework",
+    "description": "Further reading on organizing and sustaining change; the conference session does not teach the full framework.",
+    "url": "https://www.kotterinc.com/methodology/8-steps/",
+    "resourceType": "Framework",
+    "gradeBands": [
+      "K–12 leaders"
+    ],
+    "subjects": [
+      "Project Management",
+      "Leadership"
+    ],
+    "instructionalUses": [
+      "Clarify project decisions",
+      "Connect delivery to adoption"
+    ],
+    "instructionalStrategies": [],
+    "relatedSessions": [
+      "project-management"
+    ],
+    "verifiedDate": "2026-10-27"
   }
 ]

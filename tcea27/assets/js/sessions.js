@@ -1,8 +1,6 @@
-/* Session metadata lives in data/sessions.json. The build emits static cards so
-   sessions are discoverable without JavaScript and in the extracted packet. */
-(() => {
- const published=(window.TCEA_DATA?.sessions||[]).filter(s=>s.status==='published');
- document.documentElement.dataset.publishedSessions=String(published.length);
- const cards=document.getElementById('session-cards');
- if(cards)cards.setAttribute('aria-label',published.length+' published session'+(published.length===1?'':'s'));
+/* Published sessions and their images are authored in data/sessions.json.
+   Static cards remain readable without JavaScript. No autoplay or response storage. */
+(()=>{'use strict';const published=(window.TCEA_DATA?.sessions||[]).filter(s=>s.status==='published');document.documentElement.dataset.publishedSessions=String(published.length);const carousel=document.getElementById('session-carousel');if(!carousel)return;const cards=[...carousel.querySelectorAll('.carousel-slide')],dots=[...carousel.querySelectorAll('[data-session-dot]')],controls=carousel.querySelector('.carousel-controls');let index=0;
+ function show(i){index=(i+cards.length)%cards.length;cards.forEach((card,j)=>{card.hidden=j!==index;card.setAttribute('aria-label',(j+1)+' of '+cards.length);});dots.forEach((dot,j)=>{dot.setAttribute('aria-pressed',String(j===index));});carousel.querySelector('#session-position').textContent='Session '+(index+1)+' of '+cards.length;}
+ if(!cards.length)return;controls.hidden=cards.length<2;carousel.querySelector('[data-session-prev]').onclick=()=>show(index-1);carousel.querySelector('[data-session-next]').onclick=()=>show(index+1);dots.forEach((dot,i)=>dot.onclick=()=>show(i));carousel.addEventListener('keydown',event=>{if(event.target.closest('input,textarea,select'))return;if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();show(index+(event.key==='ArrowRight'?1:-1));}});let start;carousel.addEventListener('pointerdown',event=>{if(!event.target.closest('a,button'))start={x:event.clientX,y:event.clientY};});carousel.addEventListener('pointerup',event=>{if(start&&Math.abs(event.clientX-start.x)>60&&Math.abs(event.clientY-start.y)<50)show(index+(event.clientX<start.x?1:-1));start=null;});show(0);
 })();

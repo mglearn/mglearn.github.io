@@ -1,6 +1,6 @@
 # TCEA 2027 · MG Learn conference companion
 
-Published at https://mglearn.github.io/tcea27/ from `mglearn/mglearn.github.io`, main branch root. The first workshop is **High-Impact Teaching Math Tools Without the Price Tag**. Its stable path remains `sessions/math-without-price-tag/`.
+Published at https://mglearn.github.io/tcea27/ from `mglearn/mglearn.github.io`, main branch root. Published workshops are **High-Impact Teaching Math Tools Without the Price Tag** and **Project Management and Change Leadership**, each designed for fifty minutes. The original math workshop is **High-Impact Teaching Math Tools Without the Price Tag**. Its stable path remains `sessions/math-without-price-tag/`.
 
 ## Maintain the site
 
@@ -26,7 +26,7 @@ Seven MetaX influence records were reviewed October 27, 2026, version 1.4 (Febru
 
 TEKS correlations are paraphrased from TEA's current Chapter 111 elementary, middle-school and high-school PDFs (links in `lessons.json`). Kindergarten joining/separating, Grade 3 categorical graphs, Grade 6 distributions and Algebra I data relationships were checked. This does not certify a complete curriculum alignment. Digital Math Tools' five grade-band collections and the GraphSplat/Quiz tool pages were verified as published.
 
-The presenter guide and 18-slide webdeck are AES-256-GCM encrypted with a PBKDF2-SHA256 password-derived key (600,000 iterations). Only ciphertext is published in the current site, offline packet, and deck library. Passwords and decrypted HTML are held only in memory; earlier public Git revisions and previously downloaded packets remain public. Attendee answer explanations start collapsed. Timers are optional, text-only and do not flash or play sound. No leaderboard or learning-gain claim is made.
+The presenter guide and 20-slide webdeck are AES-256-GCM encrypted with a PBKDF2-SHA256 password-derived key (600,000 iterations). Only ciphertext is published in the current site, offline packet, and deck library. Passwords and decrypted HTML are held only in memory; earlier public Git revisions and previously downloaded packets remain public. Attendee answer explanations start collapsed. Timers are optional, text-only and do not flash or play sound. No leaderboard or learning-gain claim is made.
 
 ## Offline and accessible formats
 
@@ -38,8 +38,14 @@ Original teaching materials may be reused and adapted with attribution to Miguel
 
 Private HTML sources and the password file must live outside this public repository. The local private source directory is recorded in the separate release notes, not published. Seal an updated guide or deck using `node tcea27/scripts/seal-presenter.cjs <private-html> <private-password-file> <public-output-html>`, then rebuild the offline packet. The build refuses to regenerate an unprotected guide. Never add plaintext presenter notes or a password to public JSON, scripts, PDFs, screenshots, or Git. Browser tests requiring presenter access read `TCEA_PASSWORD_FILE`; they never log the password.
 
-The protected deck is also mirrored at https://mguhlin.github.io/webdecks/tcea27/math-tools.html . It follows the canonical Web Deck v5 specification with project-local framework copies in `assets/webdeck/` and inlined copies in the encrypted HTML. Eighteen slides allocate exactly fifty minutes and contain roughly 100-word teleprompter notes each. Slide links open activities and demonstrations in separate tabs. `V` opens the synchronized presenter window with resizable notes, `F` fullscreen, `S` local notes, and `P` slide PDF export. On HTTPS, a presenter window opened from an already-open deck can inherit that decrypted document in memory using a same-origin/opener-checked message; nothing is persisted. Offline presenter windows may ask for the password again.
+The protected deck is also mirrored at https://mguhlin.github.io/webdecks/tcea27/math-tools.html . It follows the canonical Web Deck v5 specification with project-local framework copies in `assets/webdeck/` and inlined copies in the encrypted HTML. Twenty slides allocate exactly fifty minutes and contain roughly 100-word teleprompter notes each. Slide links open activities and demonstrations in separate tabs. `V` opens the synchronized presenter window with resizable notes, `F` fullscreen, `S` local notes, and `P` slide PDF export. On HTTPS, a presenter window opened from an already-open deck can inherit that decrypted document in memory using a same-origin/opener-checked message; nothing is persisted. Offline presenter windows may ask for the password again.
 
 ## Saved TCEA27 visual identity
 
 Use [TCEA27 Learning Adventure](design-system/README.md) for future sessions. The design-system folder contains the theme manifest, approved desktop/mobile references, and a starter body template. Project `AGENTS.md` records the design rules for future work. Create a landing page from a real draft session record using `python3 tcea27/scripts/create-session.py <session-id>`. The scaffold reuses the shared page shell and stylesheet; no new session theme is needed.
+
+## Two current sessions
+
+The homepage uses a manual image carousel driven by published records in `data/sessions.json`. It supports next/previous controls, labeled dots, keyboard arrows, swipe, no autoplay, and a readable no-JavaScript list. Math-specific follow-up cards and ACE content live on the math session page. The user-approved homepage header/hero/ribbon is unchanged and guarded by its saved markup hash and screenshot.
+
+Project Management is a focused conference adaptation of the supplied four-hour Module 8 assets, using the fictional portable-classroom case. It includes a six-segment agenda, content models, individual thinking, neighbor discussions, a memory-only next-step planner, four PDF/HTML resources, and encrypted presenter guide/deck. The source module's proposed videos and archived slide screenshots are not presented as completed new conference assets. Primary ADKAR and Kotter references were checked. The public build helper is `scripts/project_management.py`. Both workshops have twenty-slide protected decks with facilitator second, overview, success criteria, a photorealistic title image, and original SVG infographics, using the shared deck theme and renderer.

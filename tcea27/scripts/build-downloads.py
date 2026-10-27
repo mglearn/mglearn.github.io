@@ -47,6 +47,10 @@ for d in DATA['downloads']:
  page('downloads/'+SLUG+'/'+d['id']+'.html',d['title'],heading('Printable resource',d['title'],d['description'])+section('<div class="prose">'+html+'<div class="actions">'+link(d['file'],'Download PDF')+'<button type="button" class="button ghost" data-print>Print this resource</button></div><p class="small muted">Original teaching materials by Miguel Guhlin / MG Learn. Reuse and adapt with attribution. Research and standards links retain their own terms. Verified October 27, 2026.</p></div>'),'downloads')
 (D/'garden-insects.csv').write_text('Garden,Insects\nGarden A,12\nGarden B,15\n')
 (D/'campus-temperature.csv').write_text('Time,Temperature_C\n09:00,18\n12:00,24\n15:00,27\n')
+# Build the second workshop before packaging the shared offline companion.
+if (R/'data/project-management.json').exists():
+ from project_management import build_pm
+ build_pm(globals())
 # Deterministic archive: includes the complete static companion, HTML alternatives,
 # data, PDFs and local scripts; excludes development tools and the archive itself.
 archive=R/'downloads/tcea27-offline-packet-protected.zip'
@@ -59,4 +63,4 @@ with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=
    import re
    data=re.sub(rb'href="[^"]*tcea27-offline-packet-protected\.zip"',b'href="https://mglearn.github.io/tcea27/downloads/tcea27-offline-packet-protected.zip"',data)
   z.writestr(info,data)
-print('Built 5 selectable-text PDFs with HTML alternatives and offline ZIP:',archive.stat().st_size,'bytes')
+print('Built',len(list((R/'downloads').rglob('*.pdf'))),'selectable-text PDFs with HTML alternatives and offline ZIP:',archive.stat().st_size,'bytes')

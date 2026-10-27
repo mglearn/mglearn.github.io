@@ -29,14 +29,16 @@ for p,doc in files.items():
   links+=1
 s=json.loads((R/'data/sessions.json').read_text());a=json.loads((R/'data/activities.json').read_text())
 assert all('presenter' not in item and 'transition' not in item for item in a),'Private facilitation fields must not be published'
-for name in ['presenter-guide.html','presenter-webdeck.html']:
- text=(R/'sessions/math-without-price-tag'/name).read_text()
+for slug, name in [(slug,name) for slug in ['math-without-price-tag','project-management'] for name in ['presenter-guide.html','presenter-webdeck.html']]:
+ text=(R/'sessions'/slug/name).read_text()
  payload=json.loads(re.search(r'<script id="vaultPayload" type="application/json">(.*?)</script>',text).group(1))
  assert payload['algorithm']=='AES-256-GCM' and payload['iterations']>=600000
  assert len(base64.b64decode(payload['salt']))==16 and len(base64.b64decode(payload['iv']))==12
  assert 'data-presenter-step' not in text and 'class="notes"' not in text
 
 assert sum(x['end']-x['start'] for x in a)==50
+pm=json.loads((R/'data/project-management.json').read_text());assert sum(x['end']-x['start'] for x in pm['agenda'])==50
+hero=re.search(r'<section class="hero event-hero">.*?</section>',(R/'index.html').read_text()).group(0);theme=json.loads((R/'design-system/theme.json').read_text());assert hashlib.sha256(hero.encode()).hexdigest()==theme['approvedHeroMarkupSha256'],'Approved hero changed'
 assert [x['start'] for x in a]==[0,5,15,35,45]
 assert s[0]['title']=='High-Impact Teaching Math Tools Without the Price Tag'
 for rec in json.loads((R/'data/strategies.json').read_text()):
@@ -54,10 +56,10 @@ with zipfile.ZipFile(R/'downloads/tcea27-offline-packet-protected.zip') as z:
  assert z.testzip() is None
  assert 'tcea27/index.html' in z.namelist()
  assert 'tcea27/sessions/math-without-price-tag/presenter-guide.html' in z.namelist()
- assert len([n for n in z.namelist() if n.endswith('.pdf')])==5
- for name in ['presenter-guide.html','presenter-webdeck.html']:
-  key='tcea27/sessions/math-without-price-tag/'+name
-  assert z.read(key)==(R/'sessions/math-without-price-tag'/name).read_bytes(),'Offline presenter resource out of date'
+ assert len([n for n in z.namelist() if n.endswith('.pdf')])==9
+ for slug, name in [(slug,name) for slug in ['math-without-price-tag','project-management'] for name in ['presenter-guide.html','presenter-webdeck.html']]:
+  key='tcea27/sessions/'+slug+'/'+name
+  assert z.read(key)==(R/'sessions'/slug/name).read_bytes(),'Offline presenter resource out of date'
  assert not any('..' in Path(n).parts for n in z.namelist())
 if errors:raise SystemExit('\n'.join(errors))
-print(f'Checked {len(files)} HTML pages, {links} local references, research provenance, 50-minute agenda, 5 PDFs and offline packet.')
+print(f'Checked {len(files)} HTML pages, {links} local references, research provenance, 50-minute agendas, 9 PDFs and offline packet.')
