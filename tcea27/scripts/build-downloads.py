@@ -42,7 +42,7 @@ for d in DATA['downloads']:
  if d['id']=='session-handout':story.append(qr_image);html+='<img src="../../assets/images/session-qr.svg" width="150" height="150" alt="QR code linking to the math session page"><p><a href="'+URL+'">Open the session directly</a></p>'
  if d['id']=='graph-analysis':html+=pair('handout')
  story+=[Spacer(1,15),para('Original teaching materials by Miguel Guhlin / MG Learn. Research and resource verification: October 27, 2026. Reuse and adapt these original handouts with attribution. Linked tools, research, and standards retain their own terms.','Small27')]
- doc=SimpleDocTemplate(str(D/d['file']),pagesize=(612,792),rightMargin=45,leftMargin=45,topMargin=42,bottomMargin=50,title=d['title'],author='Miguel Guhlin / MG Learn')
+ doc=SimpleDocTemplate(str(D/d['file']),pagesize=(612,792),rightMargin=45,leftMargin=45,topMargin=42,bottomMargin=50,title=d['title'],author='Miguel Guhlin / MG Learn',invariant=1)
  doc.build(story,onFirstPage=footer,onLaterPages=footer,canvasmaker=partial(canvas.Canvas,invariant=1))
  page('downloads/'+SLUG+'/'+d['id']+'.html',d['title'],heading('Printable resource',d['title'],d['description'])+section('<div class="prose">'+html+'<div class="actions">'+link(d['file'],'Download PDF')+'<button type="button" class="button ghost" data-print>Print this resource</button></div><p class="small muted">Original teaching materials by Miguel Guhlin / MG Learn. Reuse and adapt with attribution. Research and standards links retain their own terms. Verified October 27, 2026.</p></div>'),'downloads')
 (D/'garden-insects.csv').write_text('Garden,Insects\nGarden A,12\nGarden B,15\n')
