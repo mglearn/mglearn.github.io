@@ -24,3 +24,5 @@ The current release has two workshops, twenty slides and fifty minutes per prote
 Run `tests/remember-access.cjs` with TCEA_PASSWORD_FILE for persistent-browser access tests. Standard presenter tests uncheck Remember access to verify temporary reload locking. The persistence suite checks thirty-day cookies, browser restart, cross-workshop unlocking, non-exportable CryptoKeys, expiration, and forgetting.
 
 `tests/cooperative.cjs` checks the third carousel card, Bingo clues/marks/reset, exit questions, real note copying/printing/privacy, mobile/axe, tool starter links, and filtering. Use TCEA_SESSION_SLUG=play-explore-explain for its protected deck tests. The general suite now includes 36 pages; static verification covers 37 HTML pages and 13 PDFs.
+
+`tests/coaching.cjs` covers the fourth workshop: carousel and resource filters, seven pages at 1280/390/320 pixels, axe, actual clipboard/text download/print/reset, response privacy, reload clearing, and video fallback. Static verification now covers 51 HTML pages and 18 PDFs. Set `TCEA_SESSION_SLUG=coaching-that-clicks` for its twenty-slide/fifty-minute presenter checks.

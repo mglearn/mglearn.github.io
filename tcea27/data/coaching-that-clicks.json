@@ -1,0 +1,91 @@
+{
+  "agenda": [
+    {
+      "start": 0,
+      "end": 5,
+      "title": "Connect",
+      "description": "Consider two impressions of the same lesson."
+    },
+    {
+      "start": 5,
+      "end": 11,
+      "title": "Establish trust",
+      "description": "Teacher ownership, evidence, and EIIR."
+    },
+    {
+      "start": 11,
+      "end": 20,
+      "title": "Observe",
+      "description": "Watch, think quietly, compare observations."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "title": "Make meaning",
+      "description": "Practice Notice-Wonder-Next."
+    },
+    {
+      "start": 30,
+      "end": 41,
+      "title": "Practice",
+      "description": "Model and rehearse a coaching conversation."
+    },
+    {
+      "start": 41,
+      "end": 47,
+      "title": "Plan",
+      "description": "Choose a small micro-coaching sprint."
+    },
+    {
+      "start": 47,
+      "end": 50,
+      "title": "Reflect",
+      "description": "Articulate, Connect, Extend."
+    }
+  ],
+  "sources": [
+    {
+      "id": "coaching-article",
+      "name": "Coaching That Clicks with Micro-Teaching",
+      "url": "https://blog.tcea.org/coaching-that-clicks-with-micro-teaching/",
+      "description": "Miguel Guhlin, TCEA TechNotes, February 2, 2026. EIIR, teacher ownership, Notice-Wonder-Next, and short coaching cycles."
+    },
+    {
+      "id": "coaching-video",
+      "name": "Wait Time – Secondary: Phil Fowkes at Reach Academy",
+      "url": "https://www.youtube.com/watch?v=Be0r5-9TWT0",
+      "description": "Department for Education classroom example for observing questioning and thinking time."
+    },
+    {
+      "id": "coaching-metax",
+      "name": "Visible Learning MetaX: Micro-teaching / video review of lessons",
+      "url": "https://www.visiblelearningmetax.com/influences/view/micro-teaching~video_review_of_lessons",
+      "description": "Version 1.4: weighted mean effect size 0.86; five meta-analyses, 270 studies, 307 effects. Checked October 28, 2026."
+    },
+    {
+      "id": "coaching-facilitation",
+      "name": "Professional Learning That Makes a Difference",
+      "url": "https://mguhlin.org/blog/2026-10-07-professional-learning-that-makes-a-difference-podcast-reflection/",
+      "description": "Miguel Guhlin’s reflection on conversation, practice, relationships, and ACE."
+    },
+    {
+      "id": "coaching-infographic",
+      "name": "Professional Learning Facilitator Guide",
+      "url": "https://mguhlin.org/media/2026/10/professional-learning-facilitator-guide.png",
+      "description": "Planning, learner needs, interaction, reflection, and changed practice."
+    },
+    {
+      "id": "coaching-podcast",
+      "name": "Designing Professional Learning That Makes a Difference",
+      "url": "https://rss.com/podcasts/lftx-forward-thinking/3203409/",
+      "description": "Learning Forward Texas Forward Thinking conversation with Dr. Glenda Horner."
+    },
+    {
+      "id": "coaching-video-collection",
+      "name": "Department for Education: Questioning and Classroom Practice",
+      "url": "https://support-for-early-career-teachers.education.gov.uk/teach-first/year-1-what-makes-classroom-practice-effective/spring-week-5-ect-theory/",
+      "description": "Official questioning resources, classroom examples, transcripts, and audio-described video links."
+    }
+  ],
+  "verifiedDate": "2026-10-28"
+}

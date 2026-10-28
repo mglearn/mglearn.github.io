@@ -220,5 +220,68 @@
     "image": "assets/images/cooperative-learning-photo.webp",
     "imageAlt": "Illustrative adult educators playing and explaining a shared tabletop learning activity",
     "technology": "Smartphone, tablet, or laptop; one shared device per small group is enough."
+  },
+  {
+    "id": "coaching-that-clicks",
+    "slug": "coaching-that-clicks",
+    "title": "Coaching That Clicks: Small Moments, Meaningful Growth",
+    "subtitle": "Using Micro-Teaching, Video Reflection, and Evidence-Based Coaching",
+    "shortDescription": "Use short classroom video, evidence, and Notice-Wonder-Next to support teacher-directed growth.",
+    "fullDescription": "A teacher watches a recording of a lesson and discovers something surprising: the students who seemed engaged weren’t the ones doing most of the thinking. What happens next? Explore micro-teaching, a research-supported approach to instructional coaching that uses short video clips, evidence of student learning, and focused reflection to improve teaching practice. Experience a guided coaching conversation, practice giving descriptive feedback, and discover how small changes can lead to meaningful professional growth. Leave with a practical coaching protocol and a plan for helping teachers reflect on their practice without turning video into another evaluation tool.",
+    "durationMinutes": 50,
+    "format": "Presenter-led interactive session",
+    "audience": [
+      "Instructional coaches",
+      "Teacher leaders",
+      "Campus administrators",
+      "Professional learning facilitators"
+    ],
+    "gradeBands": [
+      "K–12"
+    ],
+    "presenters": [
+      {
+        "name": "Miguel Guhlin",
+        "url": "https://mguhlin.org/"
+      }
+    ],
+    "learningObjectives": [
+      "Identify evidence of student learning and instructional patterns in a short teaching example.",
+      "Practice a structured, supportive coaching conversation using the Notice-Wonder-Next protocol.",
+      "Develop a practical plan for beginning a teacher-directed micro-teaching cycle."
+    ],
+    "successCriteria": [
+      "Separate two observable classroom behaviors from interpretations.",
+      "Ask an evidence-connected Notice, Wonder, and Next question.",
+      "Choose a teacher-directed goal, one adjustment, and follow-up evidence."
+    ],
+    "featuredTools": [],
+    "featuredStrategies": [
+      "micro-teaching"
+    ],
+    "activities": [
+      "connect",
+      "trust",
+      "observe",
+      "meaning",
+      "practice",
+      "plan",
+      "reflect"
+    ],
+    "resources": [
+      "coaching-article",
+      "coaching-video",
+      "coaching-metax",
+      "coaching-facilitation",
+      "coaching-infographic",
+      "coaching-podcast",
+      "coaching-video-collection"
+    ],
+    "downloads": [],
+    "status": "published",
+    "image": "assets/images/coaching-that-clicks-photo.webp",
+    "imageAlt": "Illustrative teacher and instructional coach examining a classroom video together",
+    "technology": "Presenter computer, projector, audio, and internet; participant devices optional; paper participation works.",
+    "category": "Instructional Coaching and Professional Learning"
   }
 ]

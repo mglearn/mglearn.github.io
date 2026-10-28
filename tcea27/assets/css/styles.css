@@ -11,3 +11,6 @@ body{background-color:var(--paper-warm);background-image:radial-gradient(#7e8065
 .pm-diagram{display:block;width:100%;max-width:100%;height:auto;margin:20px 0}.pm-visual{margin:18px 0}.pm-visual figcaption{font-size:16px;color:#53627a;margin:8px 0 20px}
 /* Cooperative learning workshop: independent cards and clear group routines. */
 .coop-photo{display:block;width:100%;height:auto;border-radius:22px}.coop-bingo{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;max-width:650px;margin:24px 0}.coop-cell,.coop-free{min-height:100px;padding:12px;font:700 17px/1.3 system-ui;text-align:center;border:2px solid #28657a;border-radius:12px;background:#fff;color:#082759;overflow-wrap:anywhere;display:grid;place-items:center}.coop-cell[aria-pressed=true]{background:#0a3476;color:white;border-color:#0a3476}.coop-free{background:#fff0cd;border-color:#925100}.coop-cell[aria-pressed=true]::after{content:'✓';font-size:22px}.coop-game details{margin:20px 0}@media(max-width:400px){.coop-cell,.coop-free{font-size:14px;min-height:100px;padding:6px}.coop-bingo{gap:5px}}
+
+/* Long written URLs remain readable on narrow screens. */
+.source-link{overflow-wrap:anywhere}

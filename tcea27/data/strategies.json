@@ -239,5 +239,25 @@
       "play-explore-explain"
     ],
     "limitations": "This workshop demonstrates a short routine, not a complete evaluated program. No numeric effect size or tool-specific learning gain is claimed."
+  },
+  {
+    "id": "micro-teaching",
+    "name": "Micro-teaching / video review of lessons",
+    "description": "Record a focused teaching segment, examine evidence together, and test a manageable instructional adjustment.",
+    "effectSize": 0.86,
+    "effectSizeSource": "https://www.visiblelearningmetax.com/influences/view/micro-teaching~video_review_of_lessons",
+    "sourceName": "Visible Learning MetaX 1.4 (February 2026)",
+    "influenceName": "Micro-teaching / video review of lessons",
+    "category": "Teacher / Teacher education",
+    "statistic": "Weighted mean effect size (d)",
+    "verifiedDate": "2026-10-28",
+    "classroomExample": "Review wait time and student responses; test a written-response routine and revisit comparable evidence.",
+    "relatedTools": [
+      "Classroom video"
+    ],
+    "relatedSessions": [
+      "coaching-that-clicks"
+    ],
+    "limitations": "Five meta-analyses, 270 studies, 307 effects across settings and outcomes. This synthesis does not predict individual teacher growth or guarantee school results. The February 2026 TCEA article cited 0.99; the current MetaX weighted mean is 0.86."
   }
 ]

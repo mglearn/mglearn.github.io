@@ -54,6 +54,9 @@ if (R/'data/project-management.json').exists():
 if (R/'data/cooperative-learning.json').exists():
  from cooperative_learning import build_cooperative
  build_cooperative(globals())
+if (R/'data/coaching-that-clicks.json').exists():
+ from coaching import build_coaching
+ build_coaching(globals())
 # Deterministic archive: includes the complete static companion, HTML alternatives,
 # data, PDFs and local scripts; excludes development tools and the archive itself.
 archive=R/'downloads/tcea27-offline-packet-protected.zip'

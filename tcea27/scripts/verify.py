@@ -39,6 +39,8 @@ for slug, name in [(slug,name) for slug in [x['slug'] for x in s if x['status']=
 assert sum(x['end']-x['start'] for x in a)==50
 pm=json.loads((R/'data/project-management.json').read_text());assert sum(x['end']-x['start'] for x in pm['agenda'])==50
 coop=json.loads((R/'data/cooperative-learning.json').read_text());assert sum(x['end']-x['start'] for x in coop['agenda'])==50
+coaching=json.loads((R/'data/coaching-that-clicks.json').read_text());assert sum(x['end']-x['start'] for x in coaching['agenda'])==50
+assert [(a['start'],a['end']) for a in coaching['agenda']]==[(0,5),(5,11),(11,20),(20,30),(30,41),(41,47),(47,50)]
 hero=re.search(r'<section class="hero event-hero">.*?</section>',(R/'index.html').read_text()).group(0);theme=json.loads((R/'design-system/theme.json').read_text());assert hashlib.sha256(hero.encode()).hexdigest()==theme['approvedHeroMarkupSha256'],'Approved hero changed'
 assert [x['start'] for x in a]==[0,5,15,35,45]
 assert s[0]['title']=='High-Impact Teaching Math Tools Without the Price Tag'

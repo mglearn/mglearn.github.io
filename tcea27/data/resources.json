@@ -482,5 +482,173 @@
       "play-explore-explain"
     ],
     "verifiedDate": "2026-10-27"
+  },
+  {
+    "id": "coaching-article",
+    "name": "Coaching That Clicks with Micro-Teaching",
+    "url": "https://blog.tcea.org/coaching-that-clicks-with-micro-teaching/",
+    "resourceType": "Foundational reading",
+    "description": "Miguel Guhlin, TCEA TechNotes, February 2, 2026. EIIR, teacher ownership, Notice-Wonder-Next, and short coaching cycles.",
+    "gradeBands": [
+      "K–12"
+    ],
+    "subjects": [
+      "Instructional coaching"
+    ],
+    "instructionalUses": [
+      "Observe evidence",
+      "Support teacher reflection"
+    ],
+    "instructionalStrategies": [
+      "micro-teaching"
+    ],
+    "relatedSessions": [
+      "coaching-that-clicks"
+    ],
+    "verifiedDate": "2026-10-28"
+  },
+  {
+    "id": "coaching-video",
+    "name": "Wait Time – Secondary: Phil Fowkes at Reach Academy",
+    "url": "https://www.youtube.com/watch?v=Be0r5-9TWT0",
+    "resourceType": "Classroom video",
+    "description": "Department for Education classroom example for observing questioning and thinking time.",
+    "gradeBands": [
+      "K–12"
+    ],
+    "subjects": [
+      "Instructional coaching"
+    ],
+    "instructionalUses": [
+      "Observe evidence",
+      "Support teacher reflection"
+    ],
+    "instructionalStrategies": [
+      "micro-teaching"
+    ],
+    "relatedSessions": [
+      "coaching-that-clicks"
+    ],
+    "verifiedDate": "2026-10-28"
+  },
+  {
+    "id": "coaching-metax",
+    "name": "Visible Learning MetaX: Micro-teaching / video review of lessons",
+    "url": "https://www.visiblelearningmetax.com/influences/view/micro-teaching~video_review_of_lessons",
+    "resourceType": "Research synthesis",
+    "description": "Version 1.4: weighted mean effect size 0.86; five meta-analyses, 270 studies, 307 effects. Checked October 28, 2026.",
+    "gradeBands": [
+      "K–12"
+    ],
+    "subjects": [
+      "Instructional coaching"
+    ],
+    "instructionalUses": [
+      "Observe evidence",
+      "Support teacher reflection"
+    ],
+    "instructionalStrategies": [
+      "micro-teaching"
+    ],
+    "relatedSessions": [
+      "coaching-that-clicks"
+    ],
+    "verifiedDate": "2026-10-28"
+  },
+  {
+    "id": "coaching-facilitation",
+    "name": "Professional Learning That Makes a Difference",
+    "url": "https://mguhlin.org/blog/2026-10-07-professional-learning-that-makes-a-difference-podcast-reflection/",
+    "resourceType": "Professional learning",
+    "description": "Miguel Guhlin’s reflection on conversation, practice, relationships, and ACE.",
+    "gradeBands": [
+      "K–12"
+    ],
+    "subjects": [
+      "Instructional coaching"
+    ],
+    "instructionalUses": [
+      "Observe evidence",
+      "Support teacher reflection"
+    ],
+    "instructionalStrategies": [
+      "micro-teaching"
+    ],
+    "relatedSessions": [
+      "coaching-that-clicks"
+    ],
+    "verifiedDate": "2026-10-28"
+  },
+  {
+    "id": "coaching-infographic",
+    "name": "Professional Learning Facilitator Guide",
+    "url": "https://mguhlin.org/media/2026/10/professional-learning-facilitator-guide.png",
+    "resourceType": "Visual guide",
+    "description": "Planning, learner needs, interaction, reflection, and changed practice.",
+    "gradeBands": [
+      "K–12"
+    ],
+    "subjects": [
+      "Instructional coaching"
+    ],
+    "instructionalUses": [
+      "Observe evidence",
+      "Support teacher reflection"
+    ],
+    "instructionalStrategies": [
+      "micro-teaching"
+    ],
+    "relatedSessions": [
+      "coaching-that-clicks"
+    ],
+    "verifiedDate": "2026-10-28"
+  },
+  {
+    "id": "coaching-podcast",
+    "name": "Designing Professional Learning That Makes a Difference",
+    "url": "https://rss.com/podcasts/lftx-forward-thinking/3203409/",
+    "resourceType": "Podcast",
+    "description": "Learning Forward Texas Forward Thinking conversation with Dr. Glenda Horner.",
+    "gradeBands": [
+      "K–12"
+    ],
+    "subjects": [
+      "Instructional coaching"
+    ],
+    "instructionalUses": [
+      "Observe evidence",
+      "Support teacher reflection"
+    ],
+    "instructionalStrategies": [
+      "micro-teaching"
+    ],
+    "relatedSessions": [
+      "coaching-that-clicks"
+    ],
+    "verifiedDate": "2026-10-28"
+  },
+  {
+    "id": "coaching-video-collection",
+    "name": "Department for Education: Questioning and Classroom Practice",
+    "url": "https://support-for-early-career-teachers.education.gov.uk/teach-first/year-1-what-makes-classroom-practice-effective/spring-week-5-ect-theory/",
+    "resourceType": "Professional learning",
+    "description": "Official questioning resources, classroom examples, transcripts, and audio-described video links.",
+    "gradeBands": [
+      "K–12"
+    ],
+    "subjects": [
+      "Instructional coaching"
+    ],
+    "instructionalUses": [
+      "Observe evidence",
+      "Support teacher reflection"
+    ],
+    "instructionalStrategies": [
+      "micro-teaching"
+    ],
+    "relatedSessions": [
+      "coaching-that-clicks"
+    ],
+    "verifiedDate": "2026-10-28"
   }
 ]
